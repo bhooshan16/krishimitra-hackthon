@@ -1,0 +1,173 @@
+.disease-page {
+    min-height: 100vh;
+    background: #f0f4f0;
+    padding-bottom: 80px;
+}
+
+.tab-bar {
+    display: flex;
+    margin: 12px 16px;
+    background: white;
+    border-radius: 12px;
+    padding: 4px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: none;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+    color: #666;
+}
+
+.tab-btn.active {
+    background: #2d7a3a;
+    color: white;
+}
+
+.disease-page .card {
+    margin: 0 16px 16px;
+}
+
+.image-upload-area {
+    display: block;
+    border: 2px dashed #c8e6c9;
+    border-radius: 16px;
+    min-height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+.upload-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.upload-placeholder span {
+    font-size: 3rem;
+}
+
+.upload-placeholder p {
+    color: #888;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.preview-img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 250px;
+}
+
+.symptom-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.symptom-chip {
+    padding: 7px 12px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    background: white;
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+}
+
+.symptom-chip.selected {
+    background: #2d7a3a;
+    color: white;
+    border-color: #2d7a3a;
+}
+
+.result-card {
+    margin: 0 16px;
+}
+
+.healthy-result {
+    text-align: center;
+    padding: 20px;
+    color: #2d7a3a;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.fallback-result {
+    text-align: center;
+    padding: 20px;
+    color: #ff8f00;
+    font-size: 0.9rem;
+}
+
+.disease-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.disease-header h3 {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.severity-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.confidence-bar {
+    background: #f0f0f0;
+    border-radius: 8px;
+    height: 8px;
+    overflow: hidden;
+    margin: 8px 0 4px;
+}
+
+.confidence-fill {
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.6s ease;
+}
+
+.confidence-label {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.result-section {
+    margin-top: 12px;
+}
+
+.result-section h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.result-section ul {
+    padding-left: 20px;
+}
+
+.result-section li {
+    font-size: 0.85rem;
+    color: #444;
+    margin: 4px 0;
+}

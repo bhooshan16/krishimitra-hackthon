@@ -1,0 +1,1305 @@
+[
+    {
+        "disease": "Apple Scab",
+        "crop": "Apple",
+        "confidence": 88,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Dark olive-green spots on leaves",
+            "Scabby lesions on fruits",
+            "Premature leaf drop"
+        ],
+        "causes": "Caused by the fungus Venturia inaequalis, spreads in cool, wet spring weather.",
+        "affects": [
+            "Leaves",
+            "Fruits"
+        ],
+        "treatment": [
+            "Apply Mancozeb 75% WP @ 2g/L during early spring",
+            "Spray Carbendazim 50% WP @ 1g/L",
+            "Remove and destroy fallen infected leaves"
+        ],
+        "prevention": [
+            "Plant resistant varieties like Red Delicious",
+            "Ensure proper spacing for air circulation",
+            "Apply preventive fungicide before bud break"
+        ]
+    },
+    {
+        "disease": "Powdery Mildew",
+        "crop": "Apple",
+        "confidence": 85,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "White powdery patches on leaves and shoots",
+            "Stunted shoot growth",
+            "Cracked fruits"
+        ],
+        "causes": "Podosphaera leucotricha fungus, thrives in high humidity.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "Spray Sulphur 80% WP @ 3g/L",
+            "Apply Hexaconazole 5% EC @ 2ml/L",
+            "Prune out infected shoots"
+        ],
+        "prevention": [
+            "Avoid excessive nitrogen",
+            "Ensure good sunlight penetration",
+            "Use dormant oil sprays"
+        ]
+    },
+    {
+        "disease": "Saffron Corm Rot",
+        "crop": "Saffron",
+        "confidence": 84,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Rotting of corms from base",
+            "Yellowing of leaves",
+            "Foul smell from soil",
+            "Reduced flower production"
+        ],
+        "causes": "Caused by Fusarium solani. Thrives in waterlogged soils in Kashmir.",
+        "affects": [
+            "Roots",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Treat corms with Carbendazim 50% WP @ 2g/L before planting",
+            "Improve drainage in saffron fields",
+            "Apply Trichoderma viride @ 5g/kg soil"
+        ],
+        "prevention": [
+            "Use healthy, disease-free corms",
+            "Avoid waterlogging",
+            "Rotate with non-host crops every 5 years"
+        ]
+    },
+    {
+        "disease": "Saffron Leaf Blight",
+        "crop": "Saffron",
+        "confidence": 75,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Brown necrotic spots on leaf margins",
+            "Withered leaf tips",
+            "Premature foliage death"
+        ],
+        "causes": "Alternaria species, spread by wind and rain splashes.",
+        "affects": [
+            "Leaves"
+        ],
+        "treatment": [
+            "Spray Mancozeb @ 2.5g/L",
+            "Use copper-based fungicides"
+        ],
+        "prevention": [
+            "Avoid overhead irrigation",
+            "Collect and burn infected plant debris"
+        ]
+    },
+    {
+        "disease": "Walnut Blight",
+        "crop": "Walnut",
+        "confidence": 80,
+        "severity": "high",
+        "type": "Bacterial",
+        "symptoms": [
+            "Black spots on young fruits",
+            "Darkening of catkins",
+            "Leaf necrosis with dark margins"
+        ],
+        "causes": "Caused by Xanthomonas arboricola pv. juglandis. Prevalent during rainy seasons in hilly regions.",
+        "affects": [
+            "Leaves",
+            "Fruits",
+            "Flowers"
+        ],
+        "treatment": [
+            "Spray Bordeaux mixture (1%) before and after flowering",
+            "Apply Copper Hydroxide @ 2g/L",
+            "Prune and destroy infected twigs"
+        ],
+        "prevention": [
+            "Choose resistant cultivars",
+            "Avoid overhead irrigation during flowering",
+            "Apply preventive copper spray in early spring"
+        ]
+    },
+    {
+        "disease": "Walnut Anthracnose",
+        "crop": "Walnut",
+        "confidence": 78,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Small dark spots on leaves",
+            "Premature dropping of leaves",
+            "Sunken spots on husks"
+        ],
+        "causes": "Ophiognomonia leptostyla fungus, overwinters in fallen leaves.",
+        "affects": [
+            "Leaves",
+            "Fruits"
+        ],
+        "treatment": [
+            "Spray Chlorothalonil @ 2g/L",
+            "Apply Mancozeb @ 2.5g/L during early fruit development"
+        ],
+        "prevention": [
+            "Rake and destroy fallen leaves",
+            "Prune for better air flow"
+        ]
+    },
+    {
+        "disease": "Bacterial Leaf Blight",
+        "crop": "Rice",
+        "confidence": 82,
+        "severity": "high",
+        "type": "Bacterial",
+        "symptoms": [
+            "Yellow to white lesions along leaf veins",
+            "Wilting of seedlings",
+            "Grayish leaves in severe cases"
+        ],
+        "causes": "Caused by Xanthomonas oryzae. Spread by wind-driven rain and contaminated seeds.",
+        "affects": [
+            "Leaves"
+        ],
+        "treatment": [
+            "Apply Streptocycline @ 0.5g + Copper Oxychloride @ 3g per liter",
+            "Drain excess water from fields",
+            "Apply Pseudomonas fluorescens @ 10g/L"
+        ],
+        "prevention": [
+            "Use resistant varieties like Improved Samba Mahsuri",
+            "Avoid excessive nitrogen",
+            "Clip tips of seedlings before transplanting"
+        ]
+    },
+    {
+        "disease": "Rice Blast",
+        "crop": "Rice",
+        "confidence": 90,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Diamond-shaped lesions on leaves with gray centers",
+            "Brown spots on panicle branches",
+            "Collar rot"
+        ],
+        "causes": "Magnaporthe oryzae fungus, favored by high humidity and cool nights.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Grains"
+        ],
+        "treatment": [
+            "Spray Tricyclazole 75% WP @ 0.6g/L",
+            "Apply Isoprothiolane 40% EC @ 1.5ml/L"
+        ],
+        "prevention": [
+            "Use blast-resistant varieties",
+            "Avoid excess nitrogen",
+            "Maintain continuous flooding"
+        ]
+    },
+    {
+        "disease": "Sheath Blight",
+        "crop": "Rice",
+        "confidence": 85,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Water-soaked oval spots on leaf sheaths near water level",
+            "Spots turn grayish-white with brown margins"
+        ],
+        "causes": "Rhizoctonia solani fungus.",
+        "affects": [
+            "Stems",
+            "Leaves"
+        ],
+        "treatment": [
+            "Spray Hexaconazole 5% EC @ 2ml/L",
+            "Apply Validamycin 3% L @ 2ml/L"
+        ],
+        "prevention": [
+            "Avoid dense planting",
+            "Reduce nitrogen application"
+        ]
+    },
+    {
+        "disease": "Wheat Rust",
+        "crop": "Wheat",
+        "confidence": 87,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Orange-brown pustules on leaves",
+            "Powdery spores on leaf surface",
+            "Reduced grain filling"
+        ],
+        "causes": "Caused by Puccinia species. Spreads rapidly in warm, humid weather.",
+        "affects": [
+            "Leaves",
+            "Stems"
+        ],
+        "treatment": [
+            "Spray Propiconazole 25% EC @ 1ml/L",
+            "Apply Tebuconazole @ 1ml/L",
+            "Early harvest if severe infection"
+        ],
+        "prevention": [
+            "Grow rust-resistant varieties",
+            "Sow at recommended dates",
+            "Avoid late nitrogen application"
+        ]
+    },
+    {
+        "disease": "Karnal Bunt",
+        "crop": "Wheat",
+        "confidence": 80,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "A portion of the grain is converted into a black powdery mass",
+            "Fishy odor from infected grains"
+        ],
+        "causes": "Tilletia indica fungus, soil and seed-borne.",
+        "affects": [
+            "Grains",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Seed treatment with Carboxin 75% WP @ 2.5g/kg seed",
+            "Spray Propiconazole @ 1ml/L at heading stage"
+        ],
+        "prevention": [
+            "Use certified disease-free seeds",
+            "Follow crop rotation"
+        ]
+    },
+    {
+        "disease": "Cotton Leaf Curl Virus",
+        "crop": "Cotton",
+        "confidence": 79,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Upward curling of leaves",
+            "Thickening of leaf veins",
+            "Stunted plant growth",
+            "Small or no bolls"
+        ],
+        "causes": "Transmitted by whitefly (Bemisia tabaci). Common in Punjab, Haryana, and Rajasthan.",
+        "affects": [
+            "Leaves",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Control whitefly with Imidacloprid 17.8 SL @ 0.5ml/L",
+            "Remove and destroy infected plants",
+            "Apply Thiamethoxam 25% WG @ 0.5g/L"
+        ],
+        "prevention": [
+            "Plant virus-resistant Bt cotton varieties",
+            "Use yellow sticky traps for whitefly",
+            "Avoid late sowing"
+        ]
+    },
+    {
+        "disease": "Bacterial Blight",
+        "crop": "Cotton",
+        "confidence": 82,
+        "severity": "medium",
+        "type": "Bacterial",
+        "symptoms": [
+            "Angular, water-soaked leaf spots",
+            "Black arm (stem lesions)",
+            "Boll rot"
+        ],
+        "causes": "Xanthomonas axonopodis pv. malvacearum.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "Spray Agrimycin-100 @ 0.1g/L + Copper Oxychloride @ 3g/L",
+            "Destroy crop debris"
+        ],
+        "prevention": [
+            "Use delinted seeds",
+            "Grow resistant varieties"
+        ]
+    },
+    {
+        "disease": "Late Blight",
+        "crop": "Potato",
+        "confidence": 91,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Water-soaked dark spots on leaves",
+            "White mold on undersides",
+            "Brown rotting of tubers"
+        ],
+        "causes": "Caused by Phytophthora infestans. Thrives in cool, humid conditions.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Roots"
+        ],
+        "treatment": [
+            "Spray Metalaxyl + Mancozeb @ 2.5g/L",
+            "Remove and burn infected plants immediately",
+            "Apply Copper Oxychloride 50% WP @ 3g/L"
+        ],
+        "prevention": [
+            "Avoid overhead irrigation",
+            "Use certified disease-free seed tubers",
+            "Rotate crops every 2-3 years"
+        ]
+    },
+    {
+        "disease": "Early Blight",
+        "crop": "Potato",
+        "confidence": 86,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Target-like concentric brown spots on older leaves",
+            "Yellowing of surrounding leaf area"
+        ],
+        "causes": "Alternaria solani fungus.",
+        "affects": [
+            "Leaves"
+        ],
+        "treatment": [
+            "Spray Mancozeb 75% WP @ 2.5g/L",
+            "Apply Chlorothalonil @ 2g/L"
+        ],
+        "prevention": [
+            "Maintain plant vigor through proper fertilization",
+            "Rotate crops"
+        ]
+    },
+    {
+        "disease": "Tomato Leaf Curl",
+        "crop": "Tomato",
+        "confidence": 94,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Curling and crinkling of leaves",
+            "Stunted plant growth",
+            "Pale yellow leaves",
+            "Reduced fruit setting"
+        ],
+        "causes": "Tomato leaf curl virus, transmitted by whiteflies.",
+        "affects": [
+            "Leaves",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Control whiteflies using Imidacloprid @ 0.5ml/L",
+            "Uproot and bury infected plants immediately"
+        ],
+        "prevention": [
+            "Use nylon net (40 mesh) in nursery",
+            "Plant resistant hybrids",
+            "Weed control"
+        ]
+    },
+    {
+        "disease": "Early Blight",
+        "crop": "Tomato",
+        "confidence": 88,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Dark, concentric spots on lower leaves",
+            "Fruit cracking and rotting at the top",
+            "Yellowing and dying of leaves"
+        ],
+        "causes": "Alternaria solani fungus.",
+        "affects": [
+            "Leaves",
+            "Fruits"
+        ],
+        "treatment": [
+            "Apply Mancozeb 75% WP @ 2.5g/L",
+            "Apply Propiconazole 25% EC @ 1ml/L"
+        ],
+        "prevention": [
+            "Avoid wetting foliage when watering",
+            "Rotate with non-solanaceous crops"
+        ]
+    },
+    {
+        "disease": "Mango Malformation",
+        "crop": "Mango",
+        "confidence": 81,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Vegetative shoots become bunched and misshapen",
+            "Inflorescences become thickened, shortened and produce no fruit"
+        ],
+        "causes": "Fusarium mangiferae fungus.",
+        "affects": [
+            "Leaves",
+            "Flowers"
+        ],
+        "treatment": [
+            "Prune and burn affected parts safely 30cm behind infection site",
+            "Spray NAA @ 200 ppm during October"
+        ],
+        "prevention": [
+            "Use disease-free planting material",
+            "Regular orchard sanitation"
+        ]
+    },
+    {
+        "disease": "Anthracnose",
+        "crop": "Mango",
+        "confidence": 85,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Black irregular spots on leaves",
+            "Flower blight and drop",
+            "Black sunken necrotic spots on ripe fruits"
+        ],
+        "causes": "Colletotrichum gloeosporioides, favored by high humidity and rain.",
+        "affects": [
+            "Leaves",
+            "Flowers",
+            "Fruits"
+        ],
+        "treatment": [
+            "Spray Carbendazim @ 1g/L before flowering",
+            "Post-harvest hot water treatment (52°C for 10 min)"
+        ],
+        "prevention": [
+            "Ensure timely pruning for aeration",
+            "Remove dead twigs and branches"
+        ]
+    },
+    {
+        "disease": "Banana Bunchy Top Virus",
+        "crop": "Banana",
+        "confidence": 92,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Leaves are bunchy at the top",
+            "Narrow, stiff, and upright leaves",
+            "Dark green streaks on veins",
+            "Stunted growth"
+        ],
+        "causes": "Transmitted by the banana aphid (Pentalonia nigronervosa).",
+        "affects": [
+            "Leaves",
+            "Whole plant"
+        ],
+        "treatment": [
+            "No cure; completely uproot and burn infected plants including rhizomes",
+            "Control aphids with Dimethoate @ 2ml/L"
+        ],
+        "prevention": [
+            "Use virus-free tissue culture plantlets",
+            "Strictly monitor and eradicate aphids"
+        ]
+    },
+    {
+        "disease": "Panama Wilt",
+        "crop": "Banana",
+        "confidence": 89,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Yellowing of older leaves progressing upwards",
+            "Leaves collapse around the pseudostem (skirt appearance)",
+            "Brown discoloration of vascular tissues"
+        ],
+        "causes": "Fusarium oxysporum f. sp. cubense, a soil-borne fungus.",
+        "affects": [
+            "Roots",
+            "Stems",
+            "Leaves"
+        ],
+        "treatment": [
+            "Capsule application of Carbendazim (50-60mg/capsule) into the corm",
+            "There is no complete cure; destroy infected plants"
+        ],
+        "prevention": [
+            "Plant resistant varieties (e.g., Grand Naine, Robusta)",
+            "Do not use suckers from infected areas",
+            "Soil solarization"
+        ]
+    },
+    {
+        "disease": "Papaya Ring Spot Virus",
+        "crop": "Papaya",
+        "confidence": 95,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Yellow mottling and distortion of leaves",
+            "Dark green rings on fruits",
+            "Water-soaked streaks on stems"
+        ],
+        "causes": "PRSV transmitted by aphids.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "No cure. Completely destroy infected plants immediately",
+            "Control aphids using Neem oil @ 5ml/L"
+        ],
+        "prevention": [
+            "Grow resistant/tolerant hybrids if available",
+            "Avoid planting papaya near cucurbit crops",
+            "Raise seedlings under net house"
+        ]
+    },
+    {
+        "disease": "Root Rot",
+        "crop": "Papaya",
+        "confidence": 80,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Yellowing and dropping of leaves",
+            "Soft, foul-smelling rotting of the main root and lower stem",
+            "Sudden plant collapse"
+        ],
+        "causes": "Phytophthora palmivora or Pythium aphanidermatum fungi. Favored by waterlogged soil.",
+        "affects": [
+            "Roots",
+            "Stems",
+            "Leaves"
+        ],
+        "treatment": [
+            "Drench soil around the base with Copper Oxychloride @ 3g/L or Metalaxyl @ 2g/L",
+            "Improve drainage"
+        ],
+        "prevention": [
+            "Plant on raised beds",
+            "Avoid water stagnation around the collar region"
+        ]
+    },
+    {
+        "disease": "Red Rot",
+        "crop": "Sugarcane",
+        "confidence": 88,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Yellowing and drying of leaves top-down",
+            "Reddening of internal stem tissues with cross white patches",
+            "Alcoholic sour smell from split canes"
+        ],
+        "causes": "Colletotrichum falcatum, primarily seed-piece/set borne.",
+        "affects": [
+            "Stems",
+            "Leaves"
+        ],
+        "treatment": [
+            "Uproot and burn diseased clumps immediately",
+            "Do not ration an infected crop"
+        ],
+        "prevention": [
+            "Use healthy seed setts treated with Carbendazim (0.1%) for 15 mins",
+            "Grow resistant varieties (e.g., Co 86032)"
+        ]
+    },
+    {
+        "disease": "Smut",
+        "crop": "Sugarcane",
+        "confidence": 84,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Production of a black whip-like structure from the central shoot",
+            "Profuse tillering",
+            "Narrow, upright leaves"
+        ],
+        "causes": "Sporisorium scitamineum fungus.",
+        "affects": [
+            "Whole plant",
+            "Stems"
+        ],
+        "treatment": [
+            "Rogue out and destroy infected whips inside a gunny bag to prevent spore spread",
+            "Do not practice rationing"
+        ],
+        "prevention": [
+            "Use smut-resistant varieties",
+            "Hot water treatment of setts (50°C for 2 hours)"
+        ]
+    },
+    {
+        "disease": "Purple Blotch",
+        "crop": "Onion",
+        "confidence": 86,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Small water-soaked lesions that turn brown/purple",
+            "Yellow halo around the spots",
+            "Leaves dropping downwards and dying"
+        ],
+        "causes": "Alternaria porri, thrives in warm, humid weather.",
+        "affects": [
+            "Leaves",
+            "Fruits"
+        ],
+        "treatment": [
+            "Spray Mancozeb @ 2.5g/L or Chlorothalonil @ 2g/L",
+            "Use a sticker with the fungicide for better adhesion"
+        ],
+        "prevention": [
+            "Ensure proper drainage",
+            "Practice crop rotation for 2-3 years",
+            "Wider spacing of plants"
+        ]
+    },
+    {
+        "disease": "Onion Smut",
+        "crop": "Onion",
+        "confidence": 80,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Dark, slightly thickened spots on cotyledons and young leaves",
+            "Lesions rupture exposing black powdery spores",
+            "Stunted growth and bulb death"
+        ],
+        "causes": "Urocystis cepulae, a soil-borne fungus surviving for many years.",
+        "affects": [
+            "Leaves",
+            "Roots"
+        ],
+        "treatment": [
+            "Seed treatment with Thiram @ 3g/kg seed",
+            "In-furrow application of Mancozeb"
+        ],
+        "prevention": [
+            "Grow onion plants from sets or transplants instead of direct seeding",
+            "Practice long crop rotations (5+ years)"
+        ]
+    },
+    {
+        "disease": "Chilli Leaf Curl (Murda Complex)",
+        "crop": "Chilli",
+        "confidence": 91,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Curling and crinkling of leaves",
+            "Stunted, bushy plant appearance",
+            "Failure of flower and fruit setting"
+        ],
+        "causes": "Chilli leaf curl virus, transmitted by whiteflies and thrips.",
+        "affects": [
+            "Leaves",
+            "Flowers",
+            "Whole plant"
+        ],
+        "treatment": [
+            "No cure for the virus. Remove infected plants.",
+            "Control vectors vectors: Spray Imidacloprid @ 0.3ml/L for whiteflies or Spinosad @ 0.3ml/L for thrips"
+        ],
+        "prevention": [
+            "Use virus-resistant/tolerant hybrids",
+            "Grow border crops like maize/sorghum",
+            "Use sticky traps"
+        ]
+    },
+    {
+        "disease": "Anthracnose (Dieback/Fruit Rot)",
+        "crop": "Chilli",
+        "confidence": 87,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Branches die back from the tips",
+            "Dark sunken spots on ripe fruits covered with pinkish concentric rings",
+            "Premature fruit drop"
+        ],
+        "causes": "Colletotrichum capsici. Prevalent in high humidity and warm temperatures.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "Spray Mancozeb 75 WP @ 2g/L or Kresoxim-methyl @ 1ml/L",
+            "Remove and burn diseased plant parts"
+        ],
+        "prevention": [
+            "Use disease-free seeds treated with Thiram",
+            "Avoid continuous cropping of chilli in the same field"
+        ]
+    },
+    {
+        "disease": "Tikka Disease (Leaf Spot)",
+        "crop": "Groundnut",
+        "confidence": 90,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Dark brown circular spots with yellow halo (early)",
+            "Darker, irregular spots without halo on underside (late)",
+            "Severe defoliation resulting in low yield"
+        ],
+        "causes": "Cercospora arachidicola (early) and Phaeoisariopsis personata (late).",
+        "affects": [
+            "Leaves"
+        ],
+        "treatment": [
+            "Spray Carbendazim @ 1g/L or Mancozeb @ 2.5g/L as soon as symptoms appear",
+            "Repeat after 15 days if necessary"
+        ],
+        "prevention": [
+            "Deep summer ploughing to destroy infected plant debris",
+            "Use tolerant varieties like TMV 2",
+            "Seed treatment with Trichoderma"
+        ]
+    },
+    {
+        "disease": "Rust",
+        "crop": "Groundnut",
+        "confidence": 85,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Orange/brown powdery pustules mostly on the underside of leaves",
+            "Leaves dry up and turn brown but stay attached to the stem"
+        ],
+        "causes": "Puccinia arachidis. Often occurs together with late leaf spot.",
+        "affects": [
+            "Leaves"
+        ],
+        "treatment": [
+            "Spray Hexaconazole 5% EC @ 2ml/L or Chlorothalonil @ 2g/L",
+            "If both spot and rust exist, use Tebuconazole @ 1ml/L"
+        ],
+        "prevention": [
+            "Destroy self-sown groundnut plants",
+            "Rotate with non-leguminous crops"
+        ]
+    },
+    {
+        "disease": "Yellow Vein Mosaic Virus",
+        "crop": "Okra/Vegetables",
+        "confidence": 93,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Yellowing of the entire network of veins in the leaf",
+            "Leaves become completely yellow if severe",
+            "Fruits become small, hard, and yellowish"
+        ],
+        "causes": "Transmitted exclusively by the whitefly (Bemisia tabaci).",
+        "affects": [
+            "Leaves",
+            "Fruits"
+        ],
+        "treatment": [
+            "Uproot and destroy infected plants immediately",
+            "Control whiteflies using Acetamiprid @ 0.4g/L or Neem Oil @ 5ml/L"
+        ],
+        "prevention": [
+            "Use resistant varieties (e.g., Arka Anamika)",
+            "Weed eradication around the field"
+        ]
+    },
+    {
+        "disease": "Turcicum Leaf Blight",
+        "crop": "Maize",
+        "confidence": 82,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Large, elliptical, grayish-green or brown lesions on lower leaves",
+            "Lesions merge leading to complete blighting of leaves"
+        ],
+        "causes": "Exserohilum turcicum. Favored by mild temperatures and heavy dew.",
+        "affects": [
+            "Leaves"
+        ],
+        "treatment": [
+            "Spray Mancozeb 75 WP @ 2.5g/L",
+            "Apply Propiconazole 25 EC @ 1ml/L if infection is severe before silking"
+        ],
+        "prevention": [
+            "Use resistant hybrids",
+            "Deep ploughing to bury residues"
+        ]
+    },
+    {
+        "disease": "Downy Mildew",
+        "crop": "Maize",
+        "confidence": 80,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Systemic infection leads to chlorotic (yellow) streaks on leaves",
+            "White downy fungal growth on underside of leaves",
+            "Crazy top (leafy structures instead of tassels)"
+        ],
+        "causes": "Peronosclerospora species. Very damaging in young plants.",
+        "affects": [
+            "Leaves",
+            "Flowers",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Spray Metalaxyl + Mancozeb @ 2.5g/L",
+            "Rogue out infected plants"
+        ],
+        "prevention": [
+            "Seed treatment with Metalaxyl 35 WS @ 4g/kg seed",
+            "Avoid waterlogging",
+            "Sow before onset of heavy monsoons"
+        ]
+    },
+    {
+        "disease": "Yellow Mosaic Virus",
+        "crop": "Soybean",
+        "confidence": 89,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Yellow patches alternating with green patches on leaves",
+            "Rusty necrotic spots on older leaves",
+            "Reduced pod size and grain yield"
+        ],
+        "causes": "Mungbean yellow mosaic India virus (MYMIV), transmitted by whiteflies.",
+        "affects": [
+            "Leaves",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Eradicate sick plants immediately",
+            "Apply whitefly control measures (Thiamethoxam @ 0.5g/L)"
+        ],
+        "prevention": [
+            "Grow resistant varieties designed for your zone",
+            "Timely planting",
+            "Keep field weed-free"
+        ]
+    },
+    {
+        "disease": "Charcoal Rot",
+        "crop": "Soybean",
+        "confidence": 84,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Plants wilt and die prematurely",
+            "Tiny black specks (microsclerotia) visible when the lower stem bark is peeled away",
+            "Root decay"
+        ],
+        "causes": "Macrophomina phaseolina. Disease is triggered by hot, dry weather stress.",
+        "affects": [
+            "Roots",
+            "Stems",
+            "Leaves"
+        ],
+        "treatment": [
+            "No fungicide cures it once established. Drench surrounding areas with Carbendazim if necessary"
+        ],
+        "prevention": [
+            "Conserve soil moisture through irrigation during dry spells",
+            "Lower plant populations",
+            "Seed treatment with Trichoderma viride"
+        ]
+    },
+    {
+        "disease": "Wilt",
+        "crop": "Gram",
+        "confidence": 88,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Drooping of upper leaves",
+            "Yellowing and drying of leaves top-down",
+            "Black discoloration of internal root tissues when split open"
+        ],
+        "causes": "Fusarium oxysporum f. sp. ciceris. Highly destructive soil-borne fungus.",
+        "affects": [
+            "Roots",
+            "Leaves",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Pull out and destroy wilting plants",
+            "Once established in the field, chemical control is ineffective"
+        ],
+        "prevention": [
+            "Seed treatment with Trichoderma viride @ 4g/kg seed + Vitavax @ 1g/kg",
+            "Deep summer ploughing",
+            "Grow resistant varieties like JG 11 or Digvijay"
+        ]
+    },
+    {
+        "disease": "Ascochyta Blight",
+        "crop": "Gram",
+        "confidence": 82,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Circular spots on leaves and pods with dark margins and gray centers",
+            "Concentric rings of tiny black dots inside the spots",
+            "Stems may break at lesion points"
+        ],
+        "causes": "Ascochyta rabiei. Favored by high rainfall and cool weather.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "Spray Chlorothalonil or Mancozeb @ 2g/L",
+            "Apply at early flowering stage"
+        ],
+        "prevention": [
+            "Use clean, disease-free seed",
+            "Delay sowing to avoid cool, wet weather during early growth"
+        ]
+    },
+    {
+        "disease": "Bacterial Wilt",
+        "crop": "Tomato",
+        "confidence": 85,
+        "severity": "high",
+        "type": "Bacterial",
+        "symptoms": [
+            "Sudden wilting of green foliage without yellowing",
+            "Brown vascular discoloration in stem",
+            "White bacterial ooze when cut stem is placed in water"
+        ],
+        "causes": "Ralstonia solanacearum. Highly destructive soil-borne bacteria.",
+        "affects": [
+            "Roots",
+            "Stems",
+            "Leaves"
+        ],
+        "treatment": [
+            "No effective chemical treatment",
+            "Uproot and burn diseased plants",
+            "Apply bleaching powder to infected soil spots"
+        ],
+        "prevention": [
+            "Use resistant varieties (e.g., Arka Rakshak)",
+            "Avoid planting in infested fields for at least 3 years",
+            "Graft onto resistant rootstocks"
+        ]
+    },
+    {
+        "disease": "Tungro Disease",
+        "crop": "Rice",
+        "confidence": 86,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Stunting of plants",
+            "Yellow to orange leaf discoloration starting from the tip",
+            "Reduced tillering",
+            "Delayed flowering or empty panicles"
+        ],
+        "causes": "Caused by RTBV and RTSV viruses, transmitted by Green Leafhoppers (GLH).",
+        "affects": [
+            "Leaves",
+            "Whole plant"
+        ],
+        "treatment": [
+            "Destroy infected plants immediately",
+            "Control leafhoppers with Buprofezin or Imidacloprid"
+        ],
+        "prevention": [
+            "Plant resistant varieties",
+            "Adjust planting times to avoid peak GLH populations",
+            "Light traps for GLH"
+        ]
+    },
+    {
+        "disease": "Downy Mildew",
+        "crop": "Grapes",
+        "confidence": 91,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Yellowish, oily spots on upper leaf surface",
+            "White, cottony growth on the underside corresponding to the spots",
+            "Berries covered with white fungal growth, later turning brown, shriveling, and dropping"
+        ],
+        "causes": "Plasmopara viticola. Thrives in warm, wet conditions.",
+        "affects": [
+            "Leaves",
+            "Fruits"
+        ],
+        "treatment": [
+            "Apply Metalaxyl + Mancozeb (Ridomil) @ 2.5g/L",
+            "Spray Fosetyl-Al @ 2g/L",
+            "Ensure thorough coverage of foliage and bunches"
+        ],
+        "prevention": [
+            "Prune vines to improve air circulation and sunlight penetration",
+            "Remove and destroy fallen leaves",
+            "Apply preventive copper sprays before the onset of rains"
+        ]
+    },
+    {
+        "disease": "Powdery Mildew",
+        "crop": "Grapes",
+        "confidence": 89,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Ashy white powdery patches on leaves, stems, and berries",
+            "Leaves turn yellow and curl upwards",
+            "Berries remain small, hard, and may crack open, emitting a musty odor"
+        ],
+        "causes": "Erysiphe necator. Favored by warm, dry weather with high humidity, even without rain.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "Dust Sulphur @ 5-10 kg/acre",
+            "Spray systemic fungicides like Myclobutanil @ 0.4g/L or Penconazole @ 0.5ml/L"
+        ],
+        "prevention": [
+            "Canopy management for good ventilation",
+            "Apply preventive sulphur during early growth stages"
+        ]
+    },
+    {
+        "disease": "Citrus Canker",
+        "crop": "Citrus",
+        "confidence": 87,
+        "severity": "high",
+        "type": "Bacterial",
+        "symptoms": [
+            "Raised, corky, brownish lesions with a yellow halo on leaves, stems, and fruits",
+            "Lesions are crater-like and rough to the touch",
+            "Premature fruit drop and dieback of twigs"
+        ],
+        "causes": "Xanthomonas axonopodis pv. citri. Spread by rain splash, wind, and contaminated tools.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "Prune all infected twigs before monsoon",
+            "Spray Streptomycin @ 100ppm combined with Copper Oxychloride (0.3%) 2-3 times at 15-day intervals"
+        ],
+        "prevention": [
+            "Use disease-free nursery stock",
+            "Control leaf miners which create points of entry for the bacteria"
+        ]
+    },
+    {
+        "disease": "Black Spot / Sigatoka",
+        "crop": "Banana",
+        "confidence": 84,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Small yellow spots on leaves that enlarge to form brown streaks with yellow halos",
+            "Center of spots turns grayish with a black border",
+            "Premature ripening of bunches"
+        ],
+        "causes": "Mycosphaerella fijiensis (Black Sigatoka) or M. musicola (Yellow Sigatoka).",
+        "affects": [
+            "Leaves"
+        ],
+        "treatment": [
+            "Spray Propiconazole @ 1ml/L + Mineral oil (1%)",
+            "Apply Mancozeb @ 2.5g/L as a protectant fungicide"
+        ],
+        "prevention": [
+            "Remove and safely destroy heavily infected leaves (de-leafing)",
+            "Improve drainage to reduce field humidity",
+            "Wider plant spacing"
+        ]
+    },
+    {
+        "disease": "Wilt",
+        "crop": "Cotton",
+        "confidence": 82,
+        "severity": "high",
+        "type": "Fungal",
+        "symptoms": [
+            "Yellowing and drooping of leaves, starting from the lower ones and progressing upwards",
+            "Brown or black discoloration in the woody tissues of the stem when split open",
+            "Complete drying of the plant"
+        ],
+        "causes": "Fusarium oxysporum f.sp. vasinfectum. Soil-borne fungus.",
+        "affects": [
+            "Roots",
+            "Stems",
+            "Leaves"
+        ],
+        "treatment": [
+            "Chemical control is generally ineffective in established infections",
+            "Spot drenching with Carbendazim (0.1%) may help limit spread"
+        ],
+        "prevention": [
+            "Use resistant varieties",
+            "Deep ploughing in summer to expose soil to heat",
+            "Crop rotation with non-host crops like cereals"
+        ]
+    },
+    {
+        "disease": "Mustard Aphids",
+        "crop": "Mustard",
+        "confidence": 92,
+        "severity": "high",
+        "type": "Pest",
+        "symptoms": [
+            "Clusters of small greenish-yellow insects on stems, leaves, and inflorescences",
+            "Curling and yellowing of leaves",
+            "Stunted growth and honeydew secretion leading to sooty mold"
+        ],
+        "causes": "Lipaphis erysimi. Infestation is severe when weather is cloudy and humid.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Flowers"
+        ],
+        "treatment": [
+            "Spray Imidacloprid 17.8 SL @ 0.5ml/L or Dimethoate 30 EC @ 2ml/L",
+            "Wait for 15 days before harvesting if spraying late"
+        ],
+        "prevention": [
+            "Timely sowing (e.g., in October in North India) reduces aphid attack",
+            "Conserve natural enemies like ladybird beetles",
+            "Pluck and destroy early infested twigs"
+        ]
+    },
+    {
+        "disease": "White Rust",
+        "crop": "Mustard",
+        "confidence": 86,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "White, raised, blister-like pustules on the lower surface of leaves",
+            "Swelling and distortion of stems and floral parts (staghead formation)"
+        ],
+        "causes": "Albugo candida. Favored by cool, moist weather.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Flowers"
+        ],
+        "treatment": [
+            "Seed treatment with Metalaxyl @ 6g/kg seed",
+            "Spray Ridomil MZ (Metalaxyl + Mancozeb) @ 2g/L when symptoms appear, repeat after 10-15 days"
+        ],
+        "prevention": [
+            "Grow resistant varieties",
+            "Practice crop rotation",
+            "Destroy weeds of the mustard family"
+        ]
+    },
+    {
+        "disease": "Phomopsis Blight",
+        "crop": "Brinjal",
+        "confidence": 81,
+        "severity": "medium",
+        "type": "Fungal",
+        "symptoms": [
+            "Dark brown, circular spots with pale centers on leaves",
+            "Stem lesions leading to plant collapse",
+            "Rotting of fruits with black pycnidia (pimples) on the surface"
+        ],
+        "causes": "Phomopsis vexans. Seed, soil, and debris borne.",
+        "affects": [
+            "Leaves",
+            "Stems",
+            "Fruits"
+        ],
+        "treatment": [
+            "Seed treatment with Thiram @ 2g/kg",
+            "Spray Mancozeb @ 2.5g/L or Carbendazim @ 1g/L at fruiting stage"
+        ],
+        "prevention": [
+            "Use certified, disease-free seeds",
+            "Use resistant varieties (e.g., Pusa Bhairav)",
+            "Long crop rotation"
+        ]
+    },
+    {
+        "disease": "Little Leaf of Brinjal",
+        "crop": "Brinjal",
+        "confidence": 90,
+        "severity": "high",
+        "type": "Viral",
+        "symptoms": [
+            "Extreme reduction in leaf size",
+            "Leaves become narrow, soft, and pale green or yellow",
+            "Stunted, bushy plant growth",
+            "Flowers converted to leaf-like structures, no fruiting"
+        ],
+        "causes": "Phytoplasma, transmitted by the leafhopper (Hishimonus phycitis).",
+        "affects": [
+            "Leaves",
+            "Flowers",
+            "Whole plant"
+        ],
+        "treatment": [
+            "No cure for infected plants; they must be immediately uprooted and destroyed",
+            "Control the leafhopper vector by spraying Imidacloprid @ 0.5ml/L or Thiamethoxam @ 0.3g/L"
+        ],
+        "prevention": [
+            "Rogue out infected weeds nearby",
+            "Grow resistant/tolerant lines if available",
+            "Use nylon nets for nurseries"
+        ]
+    },
+    {
+        "disease": "Black Rot",
+        "crop": "Cabbage/Cauliflower",
+        "confidence": 88,
+        "severity": "high",
+        "type": "Bacterial",
+        "symptoms": [
+            "V-shaped yellow or brown lesions extending inward from leaf margins",
+            "Blackening of veins within lesions",
+            "Dark rings visible in the stem cross-section"
+        ],
+        "causes": "Xanthomonas campestris pv. campestris. Spreads rapidly in warm, wet conditions.",
+        "affects": [
+            "Leaves",
+            "Stems"
+        ],
+        "treatment": [
+            "Seed treatment with hot water (50°C for 25 mins) followed by Streptocycline (100 ppm)",
+            "Spray Copper Oxychloride @ 3g/L + Streptocycline @ 0.1g/L"
+        ],
+        "prevention": [
+            "Use disease-free seeds and transplants",
+            "Ensure crop rotation of at least 3 years with non-cruciferous crops",
+            "Avoid overhead irrigation"
+        ]
+    }
+]

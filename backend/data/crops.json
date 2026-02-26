@@ -1,0 +1,752 @@
+[
+    {
+        "name": {
+            "en": "Rice",
+            "hi": "चावल",
+            "kn": "ಅಕ್ಕಿ"
+        },
+        "category": "Cereal",
+        "soilTypes": [
+            "Clay",
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "seasonPreference": [
+            "Kharif"
+        ],
+        "growthDuration": 120,
+        "temperatureRange": {
+            "min": 20,
+            "max": 35
+        },
+        "rainfallRequirement": {
+            "min": 100,
+            "max": 200
+        },
+        "yieldPerAcre": {
+            "min": 15,
+            "max": 25
+        },
+        "marketPrice": {
+            "min": 1800,
+            "max": 2500
+        },
+        "npkRequirement": {
+            "n": 120,
+            "p": 60,
+            "k": 60
+        }
+    },
+    {
+        "name": {
+            "en": "Wheat",
+            "hi": "गेहूं",
+            "kn": "ಗೋಧಿ"
+        },
+        "category": "Cereal",
+        "soilTypes": [
+            "Loamy",
+            "Clay",
+            "Alluvial"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Rabi"
+        ],
+        "growthDuration": 130,
+        "temperatureRange": {
+            "min": 10,
+            "max": 25
+        },
+        "rainfallRequirement": {
+            "min": 50,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 15,
+            "max": 22
+        },
+        "marketPrice": {
+            "min": 2000,
+            "max": 2500
+        },
+        "npkRequirement": {
+            "n": 120,
+            "p": 60,
+            "k": 40
+        }
+    },
+    {
+        "name": {
+            "en": "Tomato",
+            "hi": "टमाटर",
+            "kn": "ಟಮೇಟೊ"
+        },
+        "category": "Vegetable",
+        "soilTypes": [
+            "Loamy",
+            "Sandy",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi",
+            "Zaid"
+        ],
+        "growthDuration": 90,
+        "temperatureRange": {
+            "min": 15,
+            "max": 30
+        },
+        "rainfallRequirement": {
+            "min": 40,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 80,
+            "max": 150
+        },
+        "marketPrice": {
+            "min": 800,
+            "max": 2000
+        },
+        "npkRequirement": {
+            "n": 150,
+            "p": 75,
+            "k": 150
+        }
+    },
+    {
+        "name": {
+            "en": "Cotton",
+            "hi": "कपास",
+            "kn": "ಹತ್ತಿ"
+        },
+        "category": "Cash",
+        "soilTypes": [
+            "Black",
+            "Alluvial"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif"
+        ],
+        "growthDuration": 180,
+        "temperatureRange": {
+            "min": 20,
+            "max": 40
+        },
+        "rainfallRequirement": {
+            "min": 60,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 4,
+            "max": 8
+        },
+        "marketPrice": {
+            "min": 5500,
+            "max": 7000
+        },
+        "npkRequirement": {
+            "n": 100,
+            "p": 50,
+            "k": 50
+        }
+    },
+    {
+        "name": {
+            "en": "Onion",
+            "hi": "प्याज",
+            "kn": "ಈರುಳ್ಳಿ"
+        },
+        "category": "Vegetable",
+        "soilTypes": [
+            "Loamy",
+            "Sandy",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Rabi",
+            "Kharif"
+        ],
+        "growthDuration": 120,
+        "temperatureRange": {
+            "min": 15,
+            "max": 30
+        },
+        "rainfallRequirement": {
+            "min": 30,
+            "max": 70
+        },
+        "yieldPerAcre": {
+            "min": 80,
+            "max": 120
+        },
+        "marketPrice": {
+            "min": 800,
+            "max": 2500
+        },
+        "npkRequirement": {
+            "n": 100,
+            "p": 50,
+            "k": 100
+        }
+    },
+    {
+        "name": {
+            "en": "Sugarcane",
+            "hi": "गन्ना",
+            "kn": "ಕಬ್ಬು"
+        },
+        "category": "Cash",
+        "soilTypes": [
+            "Alluvial",
+            "Black",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi"
+        ],
+        "growthDuration": 365,
+        "temperatureRange": {
+            "min": 20,
+            "max": 35
+        },
+        "rainfallRequirement": {
+            "min": 150,
+            "max": 250
+        },
+        "yieldPerAcre": {
+            "min": 300,
+            "max": 400
+        },
+        "marketPrice": {
+            "min": 250,
+            "max": 350
+        },
+        "npkRequirement": {
+            "n": 250,
+            "p": 100,
+            "k": 100
+        }
+    },
+    {
+        "name": {
+            "en": "Maize",
+            "hi": "मक्का",
+            "kn": "ಮುಸುಕಿನ ಜೋಳ"
+        },
+        "category": "Cereal",
+        "soilTypes": [
+            "Loamy",
+            "Red",
+            "Alluvial"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi"
+        ],
+        "growthDuration": 110,
+        "temperatureRange": {
+            "min": 18,
+            "max": 27
+        },
+        "rainfallRequirement": {
+            "min": 50,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 20,
+            "max": 35
+        },
+        "marketPrice": {
+            "min": 1800,
+            "max": 2400
+        },
+        "npkRequirement": {
+            "n": 120,
+            "p": 60,
+            "k": 40
+        }
+    },
+    {
+        "name": {
+            "en": "Mustard",
+            "hi": "सरसों",
+            "kn": "ಸಾಸಿವೆ"
+        },
+        "category": "Oilseed",
+        "soilTypes": [
+            "Loamy",
+            "Sandy"
+        ],
+        "waterRequirement": "Low",
+        "seasonPreference": [
+            "Rabi"
+        ],
+        "growthDuration": 110,
+        "temperatureRange": {
+            "min": 10,
+            "max": 25
+        },
+        "rainfallRequirement": {
+            "min": 25,
+            "max": 40
+        },
+        "yieldPerAcre": {
+            "min": 6,
+            "max": 10
+        },
+        "marketPrice": {
+            "min": 5000,
+            "max": 6500
+        },
+        "npkRequirement": {
+            "n": 60,
+            "p": 40,
+            "k": 40
+        }
+    },
+    {
+        "name": {
+            "en": "Soybean",
+            "hi": "सोयाबीन",
+            "kn": "ಸೋಯಾಬೀನ್"
+        },
+        "category": "Oilseed",
+        "soilTypes": [
+            "Black",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif"
+        ],
+        "growthDuration": 100,
+        "temperatureRange": {
+            "min": 20,
+            "max": 30
+        },
+        "rainfallRequirement": {
+            "min": 60,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 8,
+            "max": 12
+        },
+        "marketPrice": {
+            "min": 4000,
+            "max": 5500
+        },
+        "npkRequirement": {
+            "n": 20,
+            "p": 60,
+            "k": 40
+        }
+    },
+    {
+        "name": {
+            "en": "Groundnut",
+            "hi": "मूंगफली",
+            "kn": "ನೆಲಗಡಲೆ"
+        },
+        "category": "Oilseed",
+        "soilTypes": [
+            "Sandy",
+            "Red",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi"
+        ],
+        "growthDuration": 120,
+        "temperatureRange": {
+            "min": 25,
+            "max": 35
+        },
+        "rainfallRequirement": {
+            "min": 50,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 10,
+            "max": 15
+        },
+        "marketPrice": {
+            "min": 5500,
+            "max": 7500
+        },
+        "npkRequirement": {
+            "n": 20,
+            "p": 50,
+            "k": 40
+        }
+    },
+    {
+        "name": {
+            "en": "Mango",
+            "hi": "आम",
+            "kn": "ಮಾವಿನಹಣ್ಣು"
+        },
+        "category": "Fruit",
+        "soilTypes": [
+            "Alluvial",
+            "Red",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif",
+            "Zaid"
+        ],
+        "growthDuration": 365,
+        "temperatureRange": {
+            "min": 24,
+            "max": 30
+        },
+        "rainfallRequirement": {
+            "min": 75,
+            "max": 250
+        },
+        "yieldPerAcre": {
+            "min": 40,
+            "max": 80
+        },
+        "marketPrice": {
+            "min": 4000,
+            "max": 8000
+        },
+        "npkRequirement": {
+            "n": 170,
+            "p": 45,
+            "k": 170
+        }
+    },
+    {
+        "name": {
+            "en": "Banana",
+            "hi": "केला",
+            "kn": "ಬಾಳೆಹಣ್ಣು"
+        },
+        "category": "Fruit",
+        "soilTypes": [
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi",
+            "Zaid"
+        ],
+        "growthDuration": 330,
+        "temperatureRange": {
+            "min": 15,
+            "max": 35
+        },
+        "rainfallRequirement": {
+            "min": 150,
+            "max": 250
+        },
+        "yieldPerAcre": {
+            "min": 150,
+            "max": 250
+        },
+        "marketPrice": {
+            "min": 1500,
+            "max": 3000
+        },
+        "npkRequirement": {
+            "n": 200,
+            "p": 50,
+            "k": 300
+        }
+    },
+    {
+        "name": {
+            "en": "Papaya",
+            "hi": "पपीता",
+            "kn": "ಪಪ್ಪಾಯಿ"
+        },
+        "category": "Fruit",
+        "soilTypes": [
+            "Sandy",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi",
+            "Zaid"
+        ],
+        "growthDuration": 300,
+        "temperatureRange": {
+            "min": 25,
+            "max": 35
+        },
+        "rainfallRequirement": {
+            "min": 100,
+            "max": 150
+        },
+        "yieldPerAcre": {
+            "min": 100,
+            "max": 150
+        },
+        "marketPrice": {
+            "min": 1500,
+            "max": 2500
+        },
+        "npkRequirement": {
+            "n": 250,
+            "p": 250,
+            "k": 500
+        }
+    },
+    {
+        "name": {
+            "en": "Potato",
+            "hi": "आलू",
+            "kn": "ಆಲೂಗಡ್ಡೆ"
+        },
+        "category": "Vegetable",
+        "soilTypes": [
+            "Sandy",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Rabi"
+        ],
+        "growthDuration": 110,
+        "temperatureRange": {
+            "min": 15,
+            "max": 25
+        },
+        "rainfallRequirement": {
+            "min": 50,
+            "max": 75
+        },
+        "yieldPerAcre": {
+            "min": 80,
+            "max": 120
+        },
+        "marketPrice": {
+            "min": 1000,
+            "max": 2500
+        },
+        "npkRequirement": {
+            "n": 120,
+            "p": 100,
+            "k": 100
+        }
+    },
+    {
+        "name": {
+            "en": "Cabbage",
+            "hi": "पत्ता गोभी",
+            "kn": "ಎಲೆಕೋಸು"
+        },
+        "category": "Vegetable",
+        "soilTypes": [
+            "Loamy",
+            "Clay",
+            "Sandy"
+        ],
+        "waterRequirement": "High",
+        "seasonPreference": [
+            "Rabi"
+        ],
+        "growthDuration": 100,
+        "temperatureRange": {
+            "min": 15,
+            "max": 22
+        },
+        "rainfallRequirement": {
+            "min": 40,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 80,
+            "max": 150
+        },
+        "marketPrice": {
+            "min": 800,
+            "max": 2000
+        },
+        "npkRequirement": {
+            "n": 150,
+            "p": 60,
+            "k": 60
+        }
+    },
+    {
+        "name": {
+            "en": "Brinjal",
+            "hi": "बैंगन",
+            "kn": "ಬದನೆಕಾಯಿ"
+        },
+        "category": "Vegetable",
+        "soilTypes": [
+            "Loamy",
+            "Sandy",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi",
+            "Zaid"
+        ],
+        "growthDuration": 150,
+        "temperatureRange": {
+            "min": 21,
+            "max": 28
+        },
+        "rainfallRequirement": {
+            "min": 50,
+            "max": 100
+        },
+        "yieldPerAcre": {
+            "min": 100,
+            "max": 160
+        },
+        "marketPrice": {
+            "min": 1000,
+            "max": 3000
+        },
+        "npkRequirement": {
+            "n": 150,
+            "p": 100,
+            "k": 50
+        }
+    },
+    {
+        "name": {
+            "en": "Apple",
+            "hi": "सेब",
+            "kn": "ಸೇಬು"
+        },
+        "category": "Fruit",
+        "soilTypes": [
+            "Loamy",
+            "Mountain",
+            "Well-drained"
+        ],
+        "waterRequirement": "High",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi"
+        ],
+        "growthDuration": 365,
+        "temperatureRange": {
+            "min": 7,
+            "max": 24
+        },
+        "rainfallRequirement": {
+            "min": 100,
+            "max": 150
+        },
+        "yieldPerAcre": {
+            "min": 80,
+            "max": 150
+        },
+        "marketPrice": {
+            "min": 5000,
+            "max": 12000
+        },
+        "npkRequirement": {
+            "n": 400,
+            "p": 200,
+            "k": 400
+        }
+    },
+    {
+        "name": {
+            "en": "Walnut",
+            "hi": "अखरोट",
+            "kn": "ವಾಲ್ನಟ್"
+        },
+        "category": "Fruit",
+        "soilTypes": [
+            "Loamy",
+            "Well-drained",
+            "Alluvial"
+        ],
+        "waterRequirement": "Medium",
+        "seasonPreference": [
+            "Kharif",
+            "Rabi"
+        ],
+        "growthDuration": 365,
+        "temperatureRange": {
+            "min": -5,
+            "max": 30
+        },
+        "rainfallRequirement": {
+            "min": 80,
+            "max": 120
+        },
+        "yieldPerAcre": {
+            "min": 10,
+            "max": 25
+        },
+        "marketPrice": {
+            "min": 15000,
+            "max": 30000
+        },
+        "npkRequirement": {
+            "n": 250,
+            "p": 150,
+            "k": 250
+        }
+    },
+    {
+        "name": {
+            "en": "Saffron",
+            "hi": "केसर",
+            "kn": "ಕೇಸರಿ"
+        },
+        "category": "Spice",
+        "soilTypes": [
+            "Loamy",
+            "Well-drained",
+            "Sandy"
+        ],
+        "waterRequirement": "Low",
+        "seasonPreference": [
+            "Rabi"
+        ],
+        "growthDuration": 210,
+        "temperatureRange": {
+            "min": 5,
+            "max": 20
+        },
+        "rainfallRequirement": {
+            "min": 30,
+            "max": 50
+        },
+        "yieldPerAcre": {
+            "min": 0.5,
+            "max": 1.5
+        },
+        "marketPrice": {
+            "min": 250000,
+            "max": 350000
+        },
+        "npkRequirement": {
+            "n": 30,
+            "p": 20,
+            "k": 20
+        }
+    }
+]

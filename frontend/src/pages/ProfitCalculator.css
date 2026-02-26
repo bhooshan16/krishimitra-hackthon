@@ -1,0 +1,45 @@
+.profit-page {
+    min-height: 100vh;
+    background: #f0f4f0;
+    padding-bottom: 80px;
+}
+
+.profit-page .card {
+    margin: 16px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.profit-summary {}
+
+.profit-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.profit-row span:first-child {
+    color: #555;
+}
+
+.profit-row span:last-child {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.profit-row.big span {
+    font-size: 1.15rem;
+    font-weight: 800;
+}
+
+.profit-divider {
+    height: 2px;
+    background: #f0f0f0;
+    margin: 4px 0;
+}

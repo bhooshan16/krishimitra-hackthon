@@ -1,0 +1,101 @@
+.fertilizer-page {
+    min-height: 100vh;
+    background: #f0f4f0;
+    padding-bottom: 80px;
+}
+
+.fertilizer-page .card {
+    margin: 16px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.fert-results {}
+
+.npk-summary h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.npk-pills {
+    display: flex;
+    gap: 12px;
+}
+
+.npk-pill {
+    flex: 1;
+    text-align: center;
+    padding: 14px 8px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.npk-pill small {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.npk-pill.n {
+    background: #e8f5e9;
+    color: #2d7a3a;
+}
+
+.npk-pill.p {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.npk-pill.k {
+    background: #fff8e1;
+    color: #e65100;
+}
+
+.fert-item {
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.fert-item.organic {
+    background: #f1f8e9;
+}
+
+.fert-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.fert-details {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 3px;
+}
+
+.fert-cost {
+    font-size: 0.78rem;
+    color: #2d7a3a;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.fert-benefit {
+    font-size: 0.78rem;
+    color: #558b2f;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.card h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}

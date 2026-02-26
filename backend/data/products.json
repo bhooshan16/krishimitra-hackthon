@@ -1,0 +1,213 @@
+[
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c001",
+        "name": {
+            "en": "Hybrid Tomato Seeds (PKM-1)",
+            "hi": "संकर टमाटर बीज",
+            "kn": "ಹೈಬ್ರಿಡ್ ಟಮೇಟೊ ಬೀಜ"
+        },
+        "category": "seeds",
+        "price": 350,
+        "unit": "per 100g packet",
+        "description": {
+            "en": "High-yield hybrid tomato seeds suitable for all seasons. Resistant to common diseases.",
+            "hi": "उच्च उपज वाले संकर टमाटर बीज, सभी मौसमों के लिए उपयुक्त।",
+            "kn": "ಹೆಚ್ಚಿನ ಇಳುವರಿ ಹೈಬ್ರಿಡ್ ಟಮೇಟೊ ಬೀಜಗಳು, ಎಲ್ಲಾ ಋತುಗಳಿಗೆ ಸೂಕ್ತ."
+        },
+        "usageInstructions": {
+            "en": "Sow seeds in nursery trays. Transplant after 25-30 days. Maintain 60cm row spacing.",
+            "hi": "नर्सरी ट्रे में बीज बोएं। 25-30 दिन बाद रोपाई करें।",
+            "kn": "ನರ್ಸರಿ ಟ್ರೇಗಳಲ್ಲಿ ಬೀಜ ಬಿತ್ತನೆ ಮಾಡಿ. 25-30 ದಿನಗಳ ನಂತರ ನಾಟಿ ಮಾಡಿ."
+        },
+        "isOrganic": false,
+        "stock": 500,
+        "rating": 4.5,
+        "seller": "AgroSeeds India",
+        "images": []
+    },
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c002",
+        "name": {
+            "en": "Basmati Rice Seeds (Pusa 1121)",
+            "hi": "बासमती चावल बीज (पूसा 1121)",
+            "kn": "ಬಾಸ್ಮತಿ ಅಕ್ಕಿ ಬೀಜ"
+        },
+        "category": "seeds",
+        "price": 480,
+        "unit": "per kg",
+        "description": {
+            "en": "Premium Pusa 1121 Basmati rice seeds. Long grain, aromatic variety with excellent market value.",
+            "hi": "प्रीमियम पूसा 1121 बासमती चावल बीज। लंबे दाने वाली सुगंधित किस्म।",
+            "kn": "ಪ್ರೀಮಿಯಂ ಪೂಸಾ 1121 ಬಾಸ್ಮತಿ ಅಕ್ಕಿ ಬೀಜಗಳು. ಉತ್ತಮ ಮಾರುಕಟ್ಟೆ ಮೌಲ್ಯ."
+        },
+        "usageInstructions": {
+            "en": "Soak seeds for 24 hours before sowing. Use 20 kg/acre. Optimum germination at 25-30°C.",
+            "hi": "बुवाई से पहले 24 घंटे भिगोएं। 20 किग्रा/एकड़ उपयोग करें।",
+            "kn": "ಬಿತ್ತನೆಗೆ ಮೊದಲು 24 ಗಂಟೆ ನೆನೆಸಿ. 20 ಕಿ.ಗ್ರಾ/ಎಕರೆ ಬಳಸಿ."
+        },
+        "isOrganic": false,
+        "stock": 300,
+        "rating": 4.7,
+        "seller": "ICAR Certified Seeds",
+        "images": []
+    },
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c003",
+        "name": {
+            "en": "NPK Fertilizer 19:19:19",
+            "hi": "एनपीके उर्वरक 19:19:19",
+            "kn": "NPK ರಸಗೊಬ್ಬರ 19:19:19"
+        },
+        "category": "fertilizers",
+        "price": 1200,
+        "npkRatio": "19:19:19",
+        "unit": "per 25 kg bag",
+        "description": {
+            "en": "Balanced water-soluble NPK fertilizer suitable for all crops. Ideal for foliar and drip application.",
+            "hi": "सभी फसलों के लिए उपयुक्त संतुलित पानी में घुलनशील NPK उर्वरक।",
+            "kn": "ಎಲ್ಲಾ ಬೆಳೆಗಳಿಗೆ ಸೂಕ್ತ ನೀರಿನಲ್ಲಿ ಕರಗುವ NPK ರಸಗೊಬ್ಬರ."
+        },
+        "usageInstructions": {
+            "en": "Dissolve 2-3 kg in 200L water for foliar spray. For drip: mix 1 kg per 1000L water.",
+            "hi": "पर्णीय छिड़काव के लिए 200L पानी में 2-3 किग्रा घोलें।",
+            "kn": "ಎಲೆ ಸಿಂಪಡಣೆಗಾಗಿ 200L ನೀರಿನಲ್ಲಿ 2-3 ಕಿ.ಗ್ರಾ ಕರಗಿಸಿ."
+        },
+        "isOrganic": false,
+        "stock": 250,
+        "rating": 4.3,
+        "seller": "Deepak Fertilizers",
+        "images": []
+    },
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c004",
+        "name": {
+            "en": "Organic Vermicompost",
+            "hi": "जैविक वर्मीकम्पोस्ट",
+            "kn": "ಸಾವಯವ ವರ್ಮಿಕಾಂಪೋಸ್ಟ್"
+        },
+        "category": "fertilizers",
+        "price": 800,
+        "unit": "per 50 kg bag",
+        "description": {
+            "en": "Premium organic vermicompost rich in humus, nitrogen, and beneficial microorganisms. NPOP certified.",
+            "hi": "ह्यूमस, नाइट्रोजन और लाभकारी सूक्ष्मजीवों से भरपूर जैविक वर्मीकम्पोस्ट।",
+            "kn": "ಹ್ಯೂಮಸ್, ನೈಟ್ರೋಜನ್ ಮತ್ತು ಪ್ರಯೋಜನಕಾರಿ ಸೂಕ್ಷ್ಮಜೀವಿಗಳಿಂದ ಸಮೃದ್ಧ ಸಾವಯವ ವರ್ಮಿಕಾಂಪೋಸ್ಟ್."
+        },
+        "usageInstructions": {
+            "en": "Apply 2-3 tons/acre during land preparation. Can also be applied in planting pits.",
+            "hi": "भूमि तैयारी के दौरान 2-3 टन/एकड़ लगाएं।",
+            "kn": "ಭೂಮಿ ತಯಾರಿಯ ಸಮಯದಲ್ಲಿ 2-3 ಟನ್/ಎಕರೆ ಹಾಕಿ."
+        },
+        "isOrganic": true,
+        "stock": 400,
+        "rating": 4.6,
+        "seller": "GreenEarth Organics",
+        "images": []
+    },
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c005",
+        "name": {
+            "en": "Neem-based Pesticide Spray",
+            "hi": "नीम आधारित कीटनाशक",
+            "kn": "ಬೇವು ಆಧಾರಿತ ಕೀಟನಾಶಕ"
+        },
+        "category": "pesticides",
+        "price": 450,
+        "unit": "per 1L bottle",
+        "description": {
+            "en": "Eco-friendly neem-based pesticide effective against aphids, whiteflies, and more. Safe for bees.",
+            "hi": "पर्यावरण के अनुकूल नीम आधारित कीटनाशक, माहू और सफेद मक्खी के खिलाफ प्रभावी।",
+            "kn": "ಪರಿಸರ ಸ್ನೇಹಿ ಬೇವು ಆಧಾರಿತ ಕೀಟನಾಶಕ, ಮಿಡಿತೆಗಳು ಮತ್ತು ಬಿಳಿ ನೊಣಗಳ ವಿರುದ್ಧ ಪರಿಣಾಮಕಾರಿ."
+        },
+        "usageInstructions": {
+            "en": "Mix 5ml in 1L water. Spray on affected parts. Repeat every 7-10 days.",
+            "hi": "1L पानी में 5ml मिलाएं। प्रभावित भागों पर छिड़कें। हर 7-10 दिन में दोहराएं।",
+            "kn": "1L ನೀರಿನಲ್ಲಿ 5ml ಬೆರೆಸಿ. ಪ್ರಭಾವಿತ ಭಾಗಗಳ ಮೇಲೆ ಸಿಂಪಡಿಸಿ."
+        },
+        "isOrganic": true,
+        "stock": 200,
+        "rating": 4.2,
+        "seller": "BioAgro Solutions",
+        "images": []
+    },
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c006",
+        "name": {
+            "en": "Heavy-Duty Mini Tractor 24HP",
+            "hi": "हेवी-ड्यूटी मिनी ट्रैक्टर 24HP",
+            "kn": "ಹೆವಿ-ಡ್ಯೂಟಿ ಮಿನಿ ಟ್ರ್ಯಾಕ್ಟರ್ 24HP"
+        },
+        "category": "tools",
+        "price": 485000,
+        "rentPrice": 2500,
+        "isRentable": true,
+        "unit": "per day (rent)",
+        "description": {
+            "en": "24HP mini tractor ideal for small to medium farms. 4WD, power steering, with multiple attachments available.",
+            "hi": "24HP मिनी ट्रैक्टर छोटे से मध्यम खेतों के लिए आदर्श। 4WD, पावर स्टीयरिंग।",
+            "kn": "ಸಣ್ಣ ರೈತರಿಗೆ ಸೂಕ್ತ 24HP ಮಿನಿ ಟ್ರ್ಯಾಕ್ಟರ್. 4WD ಮತ್ತು ಪವರ್ ಸ್ಟೀರಿಂಗ್."
+        },
+        "usageInstructions": {
+            "en": "Suitable for ploughing, rotavating, and transport. Consult dealer for attachment setup.",
+            "hi": "जुताई, रोटावेटिंग और परिवहन के लिए उपयुक्त।",
+            "kn": "ಉಳುಮೆ, ರೊಟಾವೇಟಿಂಗ್ ಮತ್ತು ಸಾರಿಗೆಗೆ ಸೂಕ್ತ."
+        },
+        "isOrganic": false,
+        "stock": 10,
+        "rating": 4.8,
+        "seller": "Mahindra Agri",
+        "images": []
+    },
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c007",
+        "name": {
+            "en": "Drip Irrigation Kit (1 Acre)",
+            "hi": "ड्रिप सिंचाई किट (1 एकड़)",
+            "kn": "ಡ್ರಿಪ್ ನೀರಾವರಿ ಕಿಟ್ (1 ಎಕರೆ)"
+        },
+        "category": "tools",
+        "price": 12000,
+        "unit": "per 1 acre kit",
+        "description": {
+            "en": "Complete drip irrigation system for 1 acre. Includes main line, sub-main, drippers, filters, and fittings. Saves up to 50% water.",
+            "hi": "1 एकड़ के लिए पूर्ण ड्रिप सिंचाई प्रणाली। 50% तक पानी की बचत।",
+            "kn": "1 ಎಕರೆಗೆ ಸಂಪೂರ್ಣ ಡ್ರಿಪ್ ನೀರಾವರಿ ವ್ಯವಸ್ಥೆ. 50% ನೀರು ಉಳಿತಾಯ."
+        },
+        "usageInstructions": {
+            "en": "Professional installation recommended. Flush lines weekly. Clean filters monthly.",
+            "hi": "पेशेवर स्थापना की सिफारिश की जाती है। साप्ताहिक लाइनें फ्लश करें।",
+            "kn": "ವೃತ್ತಿಪರ ಅನುಸ್ಥಾಪನೆ ಶಿಫಾರಸು. ಸಾಪ್ತಾಹಿಕ ಲೈನ್ ಫ್ಲಶ್ ಮಾಡಿ."
+        },
+        "isOrganic": false,
+        "stock": 50,
+        "rating": 4.4,
+        "seller": "Jain Irrigation",
+        "images": []
+    },
+    {
+        "_id": "6501a2b3c4d5e6f7a8b9c008",
+        "name": {
+            "en": "Wheat Seeds (HD-2967)",
+            "hi": "गेहूं बीज (HD-2967)",
+            "kn": "ಗೋಧಿ ಬೀಜ (HD-2967)"
+        },
+        "category": "seeds",
+        "price": 280,
+        "unit": "per kg",
+        "description": {
+            "en": "High-yielding wheat variety HD-2967. Suitable for north and central India. Resistant to rust.",
+            "hi": "उच्च उपज वाली गेहूं किस्म HD-2967। उत्तर और मध्य भारत के लिए उपयुक्त।",
+            "kn": "ಹೆಚ್ಚಿನ ಇಳುವರಿ ಗೋಧಿ ತಳಿ HD-2967. ಉತ್ತರ ಮತ್ತು ಮಧ್ಯ ಭಾರತಕ್ಕೆ ಸೂಕ್ತ."
+        },
+        "usageInstructions": {
+            "en": "Sow at 100-125 kg/acre. Optimal sowing time: October-November. Water at crown root stage.",
+            "hi": "100-125 किग्रा/एकड़ पर बोएं। अक्टूबर-नवंबर में बुवाई करें।",
+            "kn": "100-125 ಕಿ.ಗ್ರಾ/ಎಕರೆ ಬಿತ್ತನೆ. ಅಕ್ಟೋಬರ್-ನವೆಂಬರ್ ಬಿತ್ತನೆ ಸಮಯ."
+        },
+        "isOrganic": false,
+        "stock": 600,
+        "rating": 4.5,
+        "seller": "National Seeds Corporation",
+        "images": []
+    }
+]
