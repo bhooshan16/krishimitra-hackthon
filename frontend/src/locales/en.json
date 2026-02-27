@@ -5,6 +5,7 @@
         "weather": "Weather",
         "market": "Marketplace",
         "mandi": "Mandi Rates",
+        "voice": "Voice Agent",
         "profile": "Profile"
     },
     "home": {
@@ -136,6 +137,13 @@
         "profit": "Net Profit",
         "roi": "Return on Investment"
     },
+    "voice": {
+        "title": "Voice Assistant",
+        "tapToSpeak": "Tap the mic to speak",
+        "listening": "Listening...",
+        "thinking": "Thinking...",
+        "speaking": "Speaking..."
+    },
     "common": {
         "loading": "Loading...",
         "error": "Something went wrong",
@@ -144,5 +152,14 @@
         "save": "Save",
         "cancel": "Cancel",
         "search": "Search"
+    },
+    "voiceAgent": {
+        "title": "Voice Assistant",
+        "listening": "Listening...",
+        "speaking": "AI Speaking...",
+        "start": "Tap to start conversation",
+        "stop": "Stop conversation",
+        "error": "Failed to connect to Voice AI."
     }
+}
 }
