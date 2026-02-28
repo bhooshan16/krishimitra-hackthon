@@ -4,12 +4,9 @@
         "ai": "AI Assistant",
         "weather": "Weather",
         "market": "Marketplace",
+        "translator": "Translator",
         "mandi": "Mandi Rates",
         "voice": "Voice Agent",
-<<<<<<< HEAD
-        "translator": "Translator",
-=======
->>>>>>> e0befcf8f06041f7ab00088382f645fed14f1412
         "profile": "Profile"
     },
     "home": {
@@ -22,7 +19,7 @@
         "ask_ai": "Ask AI Assistant",
         "news_label": "LATEST AGRI NEWS",
         "features_title": "Everything You Need to Farm Smarter",
-        "features_subtitle": "8 powerful tools designed for Indian farmers",
+        "features_subtitle": "10 powerful tools designed for Indian farmers",
         "cropRec": "Crop Recommendation",
         "cropRec_desc": "AI-powered crop suggestions based on soil & season",
         "calendar": "Sowing Calendar",
@@ -34,6 +31,12 @@
         "profit_desc": "Estimate returns & break-even for any crop",
         "weather": "Weather Forecast",
         "weather_desc": "7-day agricultural weather with smart alerts",
+        "translator": "Agri Translator",
+        "translator_desc": "Translate farming text between Indian languages instantly",
+        "ledger": "Kisan Khata",
+        "ledger_desc": "Digital ledger to track your daily income & expenses.",
+        "soilLab": "Soil Lab Locator",
+        "soilLab_desc": "Find and book soil health testing services near you.",
         "mandi": "Mandi Rates",
         "mandi_desc": "Live wholesale prices from markets across India",
         "market": "Marketplace",
@@ -188,51 +191,7 @@
         "close": "Close",
         "save": "Save",
         "cancel": "Cancel",
-<<<<<<< HEAD
-        "search": "Search",
-        "learnMore": "Learn More",
-        "setAlert": "Set Alert",
-        "back": "Back"
-    },
-    "govtSchemes": {
-        "title": "Latest Government Schemes",
-        "subtitle": "Financial support and welfare programs for Indian farmers",
-        "badge": "🏛️ Govt Schemes",
-        "tapHint": "Tap to visit official portal",
-        "learnMore": "Learn More ↗",
-        "schemes": [
-            {
-                "title": "PM-KISAN",
-                "desc": "Direct income support of ₹6,000/year to all landholding farmer families."
-            },
-            {
-                "title": "PM Fasal Bima Yojana",
-                "desc": "Crop insurance against all non-preventable natural risks for farmers."
-            },
-            {
-                "title": "Kisan Credit Card (KCC)",
-                "desc": "Simplified credit delivery to meet agriculture and allied activities."
-            },
-            {
-                "title": "e-NAM",
-                "desc": "National Agriculture Market for a unified online trading platform."
-            },
-            {
-                "title": "PM-KMY",
-                "desc": "Pension scheme for small & marginal farmers above age 60."
-            },
-            {
-                "title": "PMKSY",
-                "desc": "PM Krishi Sinchai Yojana — Water to every field, more crop per drop."
-            },
-            {
-                "title": "Soil Health Card",
-                "desc": "Free soil testing and recommendation card for every farm holding."
-            }
-        ]
-=======
         "search": "Search"
->>>>>>> e0befcf8f06041f7ab00088382f645fed14f1412
     },
     "voiceAgent": {
         "title": "Voice Assistant",
@@ -241,20 +200,45 @@
         "start": "Tap to start conversation",
         "stop": "Stop conversation",
         "error": "Failed to connect to Voice AI."
-<<<<<<< HEAD
     },
-    "translator": {
-        "title": "Krishi Translator",
-        "desc": "Translate agricultural text between Indian languages.",
-        "placeholder": "Enter text to translate...",
-        "translate": "Translate",
-        "source": "Source Language",
-        "target": "Target Language",
-        "translating": "Translating...",
-        "copy": "Copy Result",
-        "history": "Recent Translations"
-=======
->>>>>>> e0befcf8f06041f7ab00088382f645fed14f1412
+    "ledger": {
+        "title": "Kisan Khata",
+        "subtitle": "Track your daily farm income & expenses",
+        "income": "Income",
+        "expense": "Expense",
+        "balance": "Balance",
+        "addIncome": "Add Income",
+        "addExpense": "Add Expense",
+        "amount": "Amount (₹)",
+        "category": "Category",
+        "description": "Description",
+        "date": "Date",
+        "save": "Save Transaction",
+        "noData": "No transactions yet. Add your first entry!",
+        "profitLoss": "Profit / Loss",
+        "byCategory": "Spending by Category",
+        "recent": "Recent Transactions"
+    },
+    "soilLab": {
+        "title": "Soil Lab Locator",
+        "subtitle": "Find a certified soil testing lab near you and book a pickup.",
+        "state": "State",
+        "allStates": "All States",
+        "type": "Lab Type",
+        "allTypes": "All Types",
+        "government": "Government",
+        "private": "Private",
+        "book": "Book Pickup Service",
+        "bookTitle": "Book Soil Test Pickup",
+        "date": "Preferred Pickup Date",
+        "address": "Farm / Pickup Address",
+        "phone": "Phone Number",
+        "notes": "Notes (Optional)",
+        "confirm": "Confirm Booking",
+        "success": "Booking Confirmed!",
+        "successMsg": "A lab representative will contact you soon for pickup.",
+        "close": "Close",
+        "noResults": "No laboratories found. Try changing the filters.",
+        "searching": "Searching for labs..."
     }
-}
 }

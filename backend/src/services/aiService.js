@@ -6,19 +6,55 @@ const axios = require('axios');
 async function callAI(messages, useJSON = false) {
     const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
     const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+    const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
-    // Try OpenRouter first
+    // Try Gemini Direct first if available (usually more reliable for these specific models)
+    if (GEMINI_API_KEY && GEMINI_API_KEY !== 'your_gemini_api_key_here') {
+        try {
+            console.log('Trying Gemini Direct API...');
+            // Convert messages to Gemini format
+            const contents = messages.map(m => ({
+                role: m.role === 'assistant' ? 'model' : 'user',
+                parts: [{ text: m.content }]
+            }));
+
+            // If the first message is 'system', Gemini expects it differently or we prepend it to the first user message
+            if (contents[0].role === 'system') {
+                const systemText = contents.shift().parts[0].text;
+                if (contents.length > 0) {
+                    contents[0].parts[0].text = `System Instruction: ${systemText}\n\nUser Message: ${contents[0].parts[0].text}`;
+                }
+            }
+
+            const response = await axios.post(
+                `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+                { contents },
+                { headers: { 'Content-Type': 'application/json' }, timeout: 15000 }
+            );
+
+            if (response.data?.candidates?.[0]?.content?.parts?.[0]?.text) {
+                return response.data.candidates[0].content.parts[0].text;
+            }
+        } catch (err) {
+            console.warn('Gemini Direct API failed:', err.response?.data?.error?.message || err.message);
+        }
+    }
+
+    // Try OpenRouter
     if (OPENROUTER_API_KEY) {
-        // Try a list of potential models in case one is unavailable
         const models = [
             'google/gemini-2.0-flash-001',
+            'google/gemini-pro',
             'google/gemini-flash-1.5',
-            'google/gemini-2.0-flash-exp:free', // Keeping as fallback
-            'openai/gpt-3.5-turbo'
+            'google/gemini-flash-1.5-8b-exp',
+            'google/gemini-2.0-flash-exp:free',
+            'openai/gpt-3.5-turbo',
+            'mistralai/mistral-7b-instruct:free'
         ];
 
         for (const model of models) {
             try {
+                console.log(`Trying OpenRouter model: ${model}`);
                 const response = await axios.post('https://openrouter.ai/api/v1/chat/completions', {
                     model,
                     messages,
@@ -33,10 +69,11 @@ async function callAI(messages, useJSON = false) {
                     },
                     timeout: 20000
                 });
-                return response.data.choices[0].message.content;
+                if (response.data?.choices?.[0]?.message?.content) {
+                    return response.data.choices[0].message.content;
+                }
             } catch (err) {
                 console.warn(`OpenRouter model ${model} failed:`, err.response?.data?.error?.message || err.message);
-                // Continue to next model
             }
         }
     }
@@ -44,6 +81,7 @@ async function callAI(messages, useJSON = false) {
     // Try OpenAI
     if (OPENAI_API_KEY) {
         try {
+            console.log('Trying OpenAI Direct...');
             const response = await axios.post('https://api.openai.com/v1/chat/completions', {
                 model: 'gpt-3.5-turbo',
                 messages,

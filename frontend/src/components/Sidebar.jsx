@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -8,21 +8,24 @@ export default function Sidebar({ isOpen, setIsOpen }) {
     const navigate = useNavigate();
     const location = useLocation();
     const { t, language, changeLanguage } = useLanguage();
+    const { user, logout } = useAuth();
     const [mobileOpen, setMobileOpen] = useState(false);
 
     const navItems = [
         { path: '/', icon: '🏠', label: t('nav.home') },
         { path: '/ai', icon: '🤖', label: t('nav.ai') },
-        { path: '/translator', icon: '🌍', label: t('nav.translator') || 'Translator' },
         { path: '/weather', icon: '🌤️', label: t('nav.weather') },
         { path: '/mandi-rates', icon: '📈', label: t('nav.mandi') || 'Mandi Rates' },
         { path: '/marketplace', icon: '🛒', label: t('nav.market') },
         { path: '/crop-recommendation', icon: '🌾', label: t('home.cropRec') || 'Crop Guide' },
-        { path: '/disease-detection', icon: '🔬', label: t('home.disease') || 'Disease Detection' },
+        { path: '/disease-detection', icon: '🦠', label: t('home.disease') || 'Disease Detection' },
         { path: '/fertilizer-guide', icon: '🧪', label: t('home.fertilizer') || 'Fertilizer' },
         { path: '/profit-calculator', icon: '💰', label: t('home.profit') || 'Profit Calc' },
+        { path: '/kisan-khata', icon: '📓', label: t('home.ledger') || 'Kisan Khata' },
+        { path: '/soil-labs', icon: '🔬', label: t('home.soilLab') || 'Soil Labs' },
         { path: '/profile', icon: '👤', label: t('nav.profile') },
     ];
+
 
     return (
         <>

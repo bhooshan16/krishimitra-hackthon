@@ -39,6 +39,8 @@ app.use('/api/weather', require('./routes/weather'));
 app.use('/api/profit', require('./routes/profit'));
 app.use('/api/market', require('./routes/market'));
 app.use('/api/alerts', require('./routes/alerts'));
+app.use('/api/ledger', require('./routes/ledger'));
+app.use('/api/labs', require('./routes/labs'));
 
 // Health Check
 app.get('/api/health', (req, res) => {
@@ -51,8 +53,18 @@ app.use((err, req, res, next) => {
     res.status(500).json({ success: false, message: err.message || 'Internal server error' });
 });
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
     console.log(`🚀 KrishiMitra AI server running on port ${PORT}`);
+});
+
+server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+        console.error(`❌ Port ${PORT} is already in use. The server is likely already running.`);
+        console.error(`   Stop the other process or change PORT in your .env file.`);
+        process.exit(0); // Exit cleanly without throwing
+    } else {
+        throw err;
+    }
 });
 
 module.exports = app;

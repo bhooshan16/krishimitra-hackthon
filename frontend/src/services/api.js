@@ -75,4 +75,17 @@ export const profitAPI = {
     compare: (data) => api.post('/profit/compare', data),
 };
 
+export const ledgerAPI = {
+    getEntries: () => api.get('/ledger'),
+    addEntry: (data) => api.post('/ledger', data),
+    deleteEntry: (id) => api.delete(`/ledger/${id}`),
+    getStats: () => api.get('/ledger/stats'),
+};
+
+export const labsAPI = {
+    getAll: (params) => api.get('/labs', { params }),
+    book: (data) => api.post('/labs/book', data),
+    getBookings: () => api.get('/labs/bookings'),
+};
+
 export default api;

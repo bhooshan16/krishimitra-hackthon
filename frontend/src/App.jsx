@@ -5,6 +5,7 @@ import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Sidebar from './components/Sidebar';
 import NotificationBell from './components/NotificationBell';
 import VoiceAssistant from './components/VoiceAssistant';
+import ErrorBoundary from './components/ErrorBoundary';
 
 // Pages
 import Home from './pages/Home';
@@ -19,6 +20,8 @@ import ProfitCalculator from './pages/ProfitCalculator';
 import MandiRates from './pages/MandiRates';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import KisanKhata from './pages/KisanKhata';
+import SoilLabLocator from './pages/SoilLabLocator';
 
 /** Redirect to /login if not authenticated */
 function ProtectedRoute({ children }) {
@@ -29,15 +32,17 @@ function ProtectedRoute({ children }) {
 /** Redirect to / if already authenticated */
 function GuestRoute({ children }) {
     const { isLoggedIn } = useAuth();
-    return isLoggedIn ? <Navigate to="/" replace /> : children;
+    return isLoggedIn ? <Navigate to="/profile" replace /> : children;
 }
 
 function AppShell() {
     const { isLoggedIn } = useAuth();
+    const [sidebarOpen, setSidebarOpen] = React.useState(false);
+
     return (
         <div className="app-shell">
-            {isLoggedIn && <Sidebar />}
-            <div className={isLoggedIn ? 'app-main' : 'app-main app-main--full'}>
+            {isLoggedIn && <Sidebar isOpen={sidebarOpen} setIsOpen={setSidebarOpen} />}
+            <div className={`${isLoggedIn ? 'app-main' : 'app-main app-main--full'} ${sidebarOpen ? 'sidebar-open' : ''}`}>
                 {isLoggedIn && <NotificationBell />}
                 {isLoggedIn && <VoiceAssistant />}
                 <Routes>
@@ -46,16 +51,18 @@ function AppShell() {
                     <Route path="/register" element={<GuestRoute><Register /></GuestRoute>} />
 
                     {/* Protected routes */}
-                    <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
-                    <Route path="/ai" element={<ProtectedRoute><AIAssistant /></ProtectedRoute>} />
-                    <Route path="/weather" element={<ProtectedRoute><Weather /></ProtectedRoute>} />
-                    <Route path="/marketplace" element={<ProtectedRoute><Marketplace /></ProtectedRoute>} />
-                    <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
-                    <Route path="/crop-recommendation" element={<ProtectedRoute><CropRecommendation /></ProtectedRoute>} />
-                    <Route path="/disease-detection" element={<ProtectedRoute><DiseaseDetection /></ProtectedRoute>} />
-                    <Route path="/fertilizer-guide" element={<ProtectedRoute><FertilizerGuide /></ProtectedRoute>} />
-                    <Route path="/profit-calculator" element={<ProtectedRoute><ProfitCalculator /></ProtectedRoute>} />
-                    <Route path="/mandi-rates" element={<ProtectedRoute><MandiRates /></ProtectedRoute>} />
+                    <Route path="/" element={<ProtectedRoute><ErrorBoundary><Home /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/ai" element={<ProtectedRoute><ErrorBoundary><AIAssistant /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/weather" element={<ProtectedRoute><ErrorBoundary><Weather /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/marketplace" element={<ProtectedRoute><ErrorBoundary><Marketplace /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/profile" element={<ProtectedRoute><ErrorBoundary><Profile /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/crop-recommendation" element={<ProtectedRoute><ErrorBoundary><CropRecommendation /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/disease-detection" element={<ProtectedRoute><ErrorBoundary><DiseaseDetection /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/fertilizer-guide" element={<ProtectedRoute><ErrorBoundary><FertilizerGuide /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/profit-calculator" element={<ProtectedRoute><ErrorBoundary><ProfitCalculator /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/mandi-rates" element={<ProtectedRoute><ErrorBoundary><MandiRates /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/kisan-khata" element={<ProtectedRoute><ErrorBoundary><KisanKhata /></ErrorBoundary></ProtectedRoute>} />
+                    <Route path="/soil-labs" element={<ProtectedRoute><ErrorBoundary><SoilLabLocator /></ErrorBoundary></ProtectedRoute>} />
                     <Route path="*" element={<Navigate to={isLoggedIn ? '/' : '/login'} replace />} />
                 </Routes>
             </div>
@@ -64,8 +71,6 @@ function AppShell() {
 }
 
 function App() {
-    const [sidebarOpen, setSidebarOpen] = React.useState(false);
-
     return (
         <LanguageProvider>
             <AuthProvider>

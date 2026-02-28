@@ -1,0 +1,463 @@
+[
+    {
+        "name": {
+            "en": "Central Soil Testing Laboratory",
+            "hi": "केंद्रीय मिट्टी परीक्षण प्रयोगशाला",
+            "kn": "ಕೇಂದ್ರೀಯ ಮಣ್ಣಿನ ಪರೀಕ್ಷಾ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Karnataka",
+        "district": "Bengaluru",
+        "address": {
+            "en": "Hebbal, Bengaluru, Karnataka 560024",
+            "hi": "हेब्बल, बेंगलुरु, कर्नाटक 560024",
+            "kn": "ಹೆಬ್ಬಾಳ, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ 560024"
+        },
+        "contact": "080-23330153",
+        "services": [
+            "NPK",
+            "pH",
+            "Organic Carbon",
+            "Micronutrients"
+        ],
+        "rating": 4.5
+    },
+    {
+        "name": {
+            "en": "District Soil Health Lab",
+            "hi": "जिला मृदा स्वास्थ्य प्रयोगशाला",
+            "kn": "ಜಿಲ್ಲಾ ಮಣ್ಣಿನ ಆರೋಗ್ಯ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Karnataka",
+        "district": "Mysuru",
+        "address": {
+            "en": "Vani Vilas Road, Mysore, Karnataka 570004",
+            "hi": "वाणी विलास रोड, मैसूर, कर्नाटक 570004",
+            "kn": "ವಾಣಿ ವಿಲಾಸ ರಸ್ತೆ, ಮೈಸೂರು, ಕರ್ನಾಟಕ 570004"
+        },
+        "contact": "0821-2442233",
+        "services": [
+            "NPK",
+            "pH",
+            "Salinity"
+        ],
+        "rating": 4.2
+    },
+    {
+        "name": {
+            "en": "Krishi Vigyan Kendra Soil Lab",
+            "hi": "कृषि विज्ञान केंद्र मृदा प्रयोगशाला",
+            "kn": "ಕೃಷಿ ವಿಜ್ಞಾನ ಕೇಂದ್ರ ಮಣ್ಣು ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Karnataka",
+        "district": "Dharwad",
+        "address": {
+            "en": "University of Agricultural Sciences, Dharwad 580005",
+            "hi": "कृषि विज्ञान विश्वविद्यालय, धारवाड़ 580005",
+            "kn": " ಕೃಷಿ ವಿಜ್ಞಾನ ವಿಶ್ವವಿದ್ಯಾಲಯ, ಧಾರವಾಡ 580005"
+        },
+        "contact": "0836-2748570",
+        "services": [
+            "NPK",
+            "pH",
+            "Boron",
+            "Zinc",
+            "Copper"
+        ],
+        "rating": 4.3
+    },
+    {
+        "name": {
+            "en": "Agro-Tech Private Laboratory",
+            "hi": "एग्रो-टेक प्राइवेट लैब",
+            "kn": "ಅಗ್ರೋ-ಟೆಕ್ ಖಾಸಗಿ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "private",
+        "state": "Maharashtra",
+        "district": "Pune",
+        "address": {
+            "en": "Hadapsar Industrial Estate, Pune, Maharashtra 411013",
+            "hi": "हडपसर औद्योगिक क्षेत्र, पुणे 411013",
+            "kn": "ಹದಪ್ಸರ್ ಇಂಡಸ್ಟ್ರಿಯಲ್ ಎಸ್ಟೇಟ್, ಪುಣೆ 411013"
+        },
+        "contact": "020-26871100",
+        "services": [
+            "Complete Soil Profile",
+            "Pesticide Residue",
+            "Water Testing"
+        ],
+        "rating": 4.8
+    },
+    {
+        "name": {
+            "en": "Maharashtra Soil Testing Centre",
+            "hi": "महाराष्ट्र मृदा परीक्षण केंद्र",
+            "kn": "ಮಹಾರಾಷ್ಟ್ರ ಮಣ್ಣು ಪರೀಕ್ಷಾ ಕೇಂದ್ರ"
+        },
+        "type": "government",
+        "state": "Maharashtra",
+        "district": "Nashik",
+        "address": {
+            "en": "Agriculture Office, College Road, Nashik 422005",
+            "hi": "कृषि कार्यालय, कॉलेज रोड, नाशिक 422005",
+            "kn": "ಕೃಷಿ ಕಚೇರಿ, ಕಾಲೇಜ್ ರಸ್ತೆ, ನಾಶಿಕ್ 422005"
+        },
+        "contact": "0253-2577434",
+        "services": [
+            "NPK",
+            "pH",
+            "EC",
+            "Organic Matter"
+        ],
+        "rating": 4.0
+    },
+    {
+        "name": {
+            "en": "Regional Soil Fertility Lab – Lucknow",
+            "hi": "क्षेत्रीय मृदा उर्वरता प्रयोगशाला, लखनऊ",
+            "kn": "ಪ್ರಾದೇಶಿಕ ಮಣ್ಣು ಫಲವತ್ತತೆ ಪ್ರಯೋಗಾಲಯ, ಲಕ್ನೋ"
+        },
+        "type": "government",
+        "state": "Uttar Pradesh",
+        "district": "Lucknow",
+        "address": {
+            "en": "Krishi Bhawan, Lucknow, UP 226001",
+            "hi": "कृषि भवन, लखनऊ, उत्तर प्रदेश 226001",
+            "kn": "ಕೃಷಿ ಭವನ, ಲಕ್ನೋ, ಉತ್ತರ ಪ್ರದೇಶ 226001"
+        },
+        "contact": "0522-2200112",
+        "services": [
+            "NPK",
+            "pH",
+            "Zinc",
+            "Iron"
+        ],
+        "rating": 4.0
+    },
+    {
+        "name": {
+            "en": "UP Soil Health Lab – Agra",
+            "hi": "यूपी मृदा स्वास्थ्य प्रयोगशाला, आगरा",
+            "kn": "ಯುಪಿ ಮಣ್ಣು ಆರೋಗ್ಯ ಪ್ರಯೋಗಾಲಯ, ಆಗ್ರಾ"
+        },
+        "type": "government",
+        "state": "Uttar Pradesh",
+        "district": "Agra",
+        "address": {
+            "en": "District Agriculture Office, MG Road, Agra 282001",
+            "hi": "जिला कृषि कार्यालय, एमजी रोड, आगरा 282001",
+            "kn": "ಜಿಲ್ಲಾ ಕೃಷಿ ಕಚೇರಿ, ಎಂಜಿ ರಸ್ತೆ, ಆಗ್ರಾ 282001"
+        },
+        "contact": "0562-2251440",
+        "services": [
+            "NPK",
+            "pH",
+            "Boron",
+            "Manganese"
+        ],
+        "rating": 3.9
+    },
+    {
+        "name": {
+            "en": "Punjab Agricultural University Soil Lab",
+            "hi": "पंजाब कृषि विश्वविद्यालय मृदा प्रयोगशाला",
+            "kn": "ಪಂಜಾಬ್ ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮಣ್ಣು ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Punjab",
+        "district": "Ludhiana",
+        "address": {
+            "en": "PAU Campus, Ludhiana, Punjab 141004",
+            "hi": "PAU कैंपस, लुधियाना, पंजाब 141004",
+            "kn": "PAU ಕ್ಯಾಂಪಸ್, ಲುಧಿಯಾನ, ಪಂಜಾಬ್ 141004"
+        },
+        "contact": "0161-2401960",
+        "services": [
+            "Complete NPK",
+            "pH",
+            "EC",
+            "Micronutrients",
+            "Heavy Metals"
+        ],
+        "rating": 4.9
+    },
+    {
+        "name": {
+            "en": "AgriScan Private Lab – Amritsar",
+            "hi": "एग्रीस्कैन प्राइवेट लैब, अमृतसर",
+            "kn": "ಅಗ್ರಿಸ್ಕ್ಯಾನ್ ಖಾಸಗಿ ಪ್ರಯೋಗಾಲಯ, ಅಮೃತಸರ"
+        },
+        "type": "private",
+        "state": "Punjab",
+        "district": "Amritsar",
+        "address": {
+            "en": "G.T. Road, Near Bus Stand, Amritsar 143001",
+            "hi": "जी.टी. रोड, बस स्टैंड के पास, अमृतसर 143001",
+            "kn": "ಜಿ.ಟಿ. ರಸ್ತೆ, ಬಸ್ ನಿಲ್ದಾಣದ ಬಳಿ, ಅಮೃತಸರ 143001"
+        },
+        "contact": "0183-2225533",
+        "services": [
+            "NPK",
+            "pH",
+            "Pesticide Residue",
+            "Water Quality"
+        ],
+        "rating": 4.6
+    },
+    {
+        "name": {
+            "en": "Central Soil & Water Testing Lab – Jaipur",
+            "hi": "केंद्रीय मृदा एवं जल परीक्षण प्रयोगशाला, जयपुर",
+            "kn": "ಕೇಂದ್ರೀಯ ಮಣ್ಣು ಮತ್ತು ನೀರು ಪರೀಕ್ಷಾ ಪ್ರಯೋಗಾಲಯ, ಜಯಪುರ"
+        },
+        "type": "government",
+        "state": "Rajasthan",
+        "district": "Jaipur",
+        "address": {
+            "en": "Sector 4, Hiran Magri, Jaipur, Rajasthan 302021",
+            "hi": "सेक्टर 4, हिरण मगरी, जयपुर, राजस्थान 302021",
+            "kn": "ಸೆಕ್ಟರ್ 4, ಹಿರಣ್ ಮಗ್ರಿ, ಜಯಪುರ, ರಾಜಸ್ಥಾನ 302021"
+        },
+        "contact": "0141-2711804",
+        "services": [
+            "NPK",
+            "pH",
+            "Salinity",
+            "Sodicity"
+        ],
+        "rating": 4.1
+    },
+    {
+        "name": {
+            "en": "IARI Regional Soil Testing Centre",
+            "hi": "IARI क्षेत्रीय मृदा परीक्षण केंद्र",
+            "kn": "IARI ಪ್ರಾದೇಶಿಕ ಮಣ್ಣು ಪರೀಕ್ಷಾ ಕೇಂದ್ರ"
+        },
+        "type": "government",
+        "state": "Rajasthan",
+        "district": "Jodhpur",
+        "address": {
+            "en": "IARI Campus, Mandore Road, Jodhpur 342304",
+            "hi": "IARI कैंपस, मंडोर रोड, जोधपुर 342304",
+            "kn": "IARI ಕ್ಯಾಂಪಸ್, ಮಂಡೋರ್ ರಸ್ತೆ, ಜೋಧ್ಪುರ 342304"
+        },
+        "contact": "0291-2786244",
+        "services": [
+            "NPK",
+            "pH",
+            "Micronutrients",
+            "Arid Zone Analysis"
+        ],
+        "rating": 4.3
+    },
+    {
+        "name": {
+            "en": "Bihar Soil Testing Laboratory",
+            "hi": "बिहार मृदा परीक्षण प्रयोगशाला",
+            "kn": "ಬಿಹಾರ ಮಣ್ಣು ಪರೀಕ್ಷಾ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Bihar",
+        "district": "Patna",
+        "address": {
+            "en": "Agriculture Complex, Patna, Bihar 800001",
+            "hi": "कृषि परिसर, पटना, बिहार 800001",
+            "kn": "ಕೃಷಿ ಸಂಕೀರ್ಣ, ಪಟ್ನಾ, ಬಿಹಾರ 800001"
+        },
+        "contact": "0612-2215049",
+        "services": [
+            "NPK",
+            "pH",
+            "Iron",
+            "Organic Carbon"
+        ],
+        "rating": 3.8
+    },
+    {
+        "name": {
+            "en": "Madhya Pradesh Soil Health Institute",
+            "hi": "मध्यप्रदेश मृदा स्वास्थ्य संस्थान",
+            "kn": "ಮಧ್ಯ ಪ್ರದೇಶ ಮಣ್ಣು ಆರೋಗ್ಯ ಸಂಸ್ಥೆ"
+        },
+        "type": "government",
+        "state": "Madhya Pradesh",
+        "district": "Bhopal",
+        "address": {
+            "en": "Kisan Complex, Near Habibganj, Bhopal 462011",
+            "hi": "किसान कॉम्प्लेक्स, हबीबगंज के पास, भोपाल 462011",
+            "kn": "ಕಿಸಾನ್ ಕಾಂಪ್ಲೆಕ್ಸ್, ಹಬೀಬ್‌ಗಂಜ್ ಬಳಿ, ಭೋಪಾಲ್ 462011"
+        },
+        "contact": "0755-2577800",
+        "services": [
+            "NPK",
+            "pH",
+            "Sulfur",
+            "Zinc",
+            "Water Testing"
+        ],
+        "rating": 4.2
+    },
+    {
+        "name": {
+            "en": "SoilCare Private Lab – Indore",
+            "hi": "सॉइलकेयर प्राइवेट लैब, इंदौर",
+            "kn": "ಸಾಯಿಲ್‌ಕೇರ್ ಖಾಸಗಿ ಪ್ರಯೋಗಾಲಯ, ಇಂದೋರ್"
+        },
+        "type": "private",
+        "state": "Madhya Pradesh",
+        "district": "Indore",
+        "address": {
+            "en": "Vijay Nagar, Indore, Madhya Pradesh 452010",
+            "hi": "विजय नगर, इंदौर, मध्यप्रदेश 452010",
+            "kn": "ವಿಜಯ್ ನಗರ, ಇಂದೋರ್, ಮಧ್ಯ ಪ್ರದೇಶ 452010"
+        },
+        "contact": "0731-2551922",
+        "services": [
+            "Complete Soil Profile",
+            "Organic Carbon",
+            "Heavy Metal"
+        ],
+        "rating": 4.7
+    },
+    {
+        "name": {
+            "en": "Tamil Nadu Soil Testing Lab",
+            "hi": "तमिलनाडु मृदा परीक्षण प्रयोगशाला",
+            "kn": "ತಮಿಳು ನಾಡು ಮಣ್ಣು ಪರೀಕ್ಷಾ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Tamil Nadu",
+        "district": "Chennai",
+        "address": {
+            "en": "Tamil Nadu Agricultural University, Adyar, Chennai 600020",
+            "hi": "तमिलनाडु कृषि विश्वविद्यालय, अड्यार, चेन्नई 600020",
+            "kn": "ತಮಿಳು ನಾಡು ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾಲಯ, ಅಡ್ಯಾರ್, ಚೆನ್ನೈ 600020"
+        },
+        "contact": "044-22301471",
+        "services": [
+            "NPK",
+            "pH",
+            "EC",
+            "Micronutrients",
+            "Heavy Metals"
+        ],
+        "rating": 4.6
+    },
+    {
+        "name": {
+            "en": "Coimbatore Agri Lab",
+            "hi": "कोयंबटूर कृषि प्रयोगशाला",
+            "kn": "ಕೊಯಮತ್ತೂರು ಕೃಷಿ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "private",
+        "state": "Tamil Nadu",
+        "district": "Coimbatore",
+        "address": {
+            "en": "TNAU Main Gate Road, Coimbatore 641003",
+            "hi": "TNAU मेन गेट रोड, कोयंबटूर 641003",
+            "kn": "TNAU ಮುಖ್ಯ ದ್ವಾರ ರಸ್ತೆ, ಕೊಯಮತ್ತೂರು 641003"
+        },
+        "contact": "0422-2431821",
+        "services": [
+            "NPK",
+            "pH",
+            "Boron",
+            "Tea/Coffee Soil"
+        ],
+        "rating": 4.5
+    },
+    {
+        "name": {
+            "en": "Andhra Pradesh Soil Health Centre",
+            "hi": "आंध्रप्रदेश मृदा स्वास्थ्य केंद्र",
+            "kn": "ಆಂಧ್ರ ಪ್ರದೇಶ ಮಣ್ಣು ಆರೋಗ್ಯ ಕೇಂದ್ರ"
+        },
+        "type": "government",
+        "state": "Andhra Pradesh",
+        "district": "Guntur",
+        "address": {
+            "en": "AP Agri Complex, Brodipet, Guntur 522002",
+            "hi": "AP कृषि परिसर, ब्रोडीपेट, गुंटूर 522002",
+            "kn": "AP ಕೃಷಿ ಸಂಕೀರ್ಣ, ಬ್ರೊಡಿಪೇಟ್, ಗುಂಟೂರು 522002"
+        },
+        "contact": "0863-2373524",
+        "services": [
+            "NPK",
+            "pH",
+            "Calcium",
+            "Magnesium",
+            "Sodium"
+        ],
+        "rating": 4.1
+    },
+    {
+        "name": {
+            "en": "Gujarat Soil & Water Testing Lab",
+            "hi": "गुजरात मृदा एवं जल परीक्षण प्रयोगशाला",
+            "kn": "ಗುಜರಾತ್ ಮಣ್ಣು ಮತ್ತು ನೀರು ಪರೀಕ್ಷಾ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Gujarat",
+        "district": "Ahmedabad",
+        "address": {
+            "en": "Krishi Bhawan, Sector 10A, Gandhinagar 382010",
+            "hi": "कृषि भवन, सेक्टर 10A, गांधीनगर 382010",
+            "kn": "ಕೃಷಿ ಭವನ, ಸೆಕ್ಟರ್ 10A, ಗಾಂಧಿನಗರ 382010"
+        },
+        "contact": "079-23254260",
+        "services": [
+            "NPK",
+            "pH",
+            "EC",
+            "Saline-Alkaline Analysis"
+        ],
+        "rating": 4.4
+    },
+    {
+        "name": {
+            "en": "Anand Agricultural University Lab",
+            "hi": "आनंद कृषि विश्वविद्यालय प्रयोगशाला",
+            "kn": "ಆನಂದ್ ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾಲಯ ಪ್ರಯೋಗಾಲಯ"
+        },
+        "type": "government",
+        "state": "Gujarat",
+        "district": "Anand",
+        "address": {
+            "en": "Anand Agricultural University, Anand, Gujarat 388110",
+            "hi": "आनंद कृषि विश्वविद्यालय, आनंद, गुजरात 388110",
+            "kn": "ಆನಂದ್ ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾಲಯ, ಆನಂದ್, ಗುಜರಾತ್ 388110"
+        },
+        "contact": "02692-226855",
+        "services": [
+            "Full Nutrient Analysis",
+            "pH",
+            "EC",
+            "Pesticide Screening"
+        ],
+        "rating": 4.8
+    },
+    {
+        "name": {
+            "en": "TerraCheck Private Lab – Hyderabad",
+            "hi": "टेरचेक प्राइवेट लैब, हैदराबाद",
+            "kn": "ಟೆರ್ರಾಚೆಕ್ ಖಾಸಗಿ ಪ್ರಯೋಗಾಲಯ, ಹೈದರಾಬಾದ್"
+        },
+        "type": "private",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "address": {
+            "en": "Gachibowli Tech Hub, Hyderabad, Telangana 500032",
+            "hi": "गचीबोवली टेक हब, हैदराबाद, तेलंगाना 500032",
+            "kn": "ಗಚ್ಚಿಬೌಲಿ ಟೆಕ್ ಹಬ್, ಹೈದರಾಬಾದ್, ತೆಲಂಗಾಣ 500032"
+        },
+        "contact": "040-40025678",
+        "services": [
+            "Complete Soil Profile",
+            "Water Quality",
+            "Drone Soil Mapping"
+        ],
+        "rating": 4.9
+    }
+]

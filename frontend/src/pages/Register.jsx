@@ -52,7 +52,7 @@ export default function Register() {
             };
             const res = await authAPI.register(payload);
             login(res.data.user, res.data.token);
-            navigate('/', { replace: true });
+            navigate('/profile', { replace: true });
         } catch (err) {
             const msg = err.response?.data?.message || 'Registration failed. Please try again.';
             setError(msg);

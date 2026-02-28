@@ -16,13 +16,9 @@ async function seedDatabase() {
         const cropsData = require('./data/crops.json');
 
         // Seed Products
-        const existingCount = await Product.countDocuments();
-        if (existingCount === 0) {
-            await Product.insertMany(productsData);
-            console.log(`✅ Seeded ${productsData.length} products`);
-        } else {
-            console.log(`ℹ️  Products already seeded (${existingCount} found)`);
-        }
+        await Product.deleteMany({});
+        await Product.insertMany(productsData);
+        console.log(`✅ Seeded ${productsData.length} products (overwritten)`);
 
         // Seed Crops
         const existingCropCount = await Crop.countDocuments();
@@ -42,6 +38,13 @@ async function seedDatabase() {
         await Disease.deleteMany({});
         await Disease.insertMany(diseasesData);
         console.log(`✅ Seeded ${diseasesData.length} diseases`);
+
+        // Seed Labs
+        const Lab = require('./src/models/Lab');
+        const labsData = require('./data/labs.json');
+        await Lab.deleteMany({});
+        await Lab.insertMany(labsData);
+        console.log(`✅ Seeded ${labsData.length} labs`);
 
         console.log('✅ Database seeding complete!');
         process.exit(0);

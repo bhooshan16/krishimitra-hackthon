@@ -1,19 +1,299 @@
+/* ===== BASE ===== */
 .profile-page {
     min-height: 100vh;
-    background: #f0f4f0;
-    padding-bottom: 80px;
+    background: linear-gradient(160deg, #f0fdf4 0%, #f1f5f9 100%);
+    padding-bottom: 40px;
+    font-family: 'Inter', sans-serif;
 }
 
-.profile-page .card {
+/* ===== TAB SWITCHER ===== */
+.profile-tabs {
+    display: flex;
     margin: 16px;
+    background: #e2e8f0;
+    border-radius: 14px;
+    padding: 4px;
+    gap: 4px;
 }
 
-.profile-avatar {
-    font-size: 4rem;
+.profile-tab {
+    flex: 1;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s;
+    background: transparent;
+    color: #64748b;
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-tab.active {
+    background: white;
+    color: #16a34a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== ABOUT ME VIEW ===== */
+.about-me-view {
+    padding: 0 0 8px;
+}
+
+/* Farmer ID Card */
+.farmer-id-card {
+    margin: 0 16px 16px;
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    border-radius: 20px;
+    padding: 24px 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.farmer-id-card::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+}
+
+.farmer-avatar-large {
+    font-size: 3rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 10px 12px;
+    flex-shrink: 0;
+}
+
+.farmer-id-info {
+    flex: 1;
+}
+
+.farmer-id-info h2 {
+    margin: 0 0 4px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.farmer-location {
+    font-size: 0.85rem;
+    opacity: 0.85;
+    margin: 0 0 8px;
+}
+
+.experience-tag {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.completion-ring {
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+/* Insight Banner */
+.insight-banner {
+    margin: 0 16px 16px;
+    background: linear-gradient(135deg, #fef3c7, #fde68a);
+    border-left: 4px solid #f59e0b;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 0.9rem;
+    color: #92400e;
+    font-weight: 600;
+}
+
+/* Stats Grid */
+.farm-stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 16px 16px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 14px;
+    padding: 14px 12px;
     text-align: center;
-    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s;
 }
 
+.stat-card:active {
+    transform: scale(0.97);
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-value {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #1e293b;
+    margin-top: 2px;
+}
+
+/* About Sections */
+.about-section-card {
+    margin: 0 16px 12px;
+    background: white;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-section-card h3 {
+    margin: 0 0 12px;
+    font-size: 1rem;
+    color: #1e293b;
+}
+
+.tags-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.info-tag {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.info-tag.green {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.info-tag.blue {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+
+.info-tag.gray {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+.benefit-badge {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f1f5f9;
+    color: #94a3b8;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.benefit-badge.active {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+/* ===== EDIT PROFILE VIEW ===== */
+.edit-profile-view {
+    padding: 0;
+}
+
+.edit-section {
+    background: white;
+    margin: 0 16px 14px;
+    border-radius: 16px;
+    padding: 18px 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.edit-section-title {
+    margin: 0 0 14px;
+    font-size: 1rem;
+    color: #1e293b;
+    font-weight: 800;
+}
+
+.form-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+/* Chip Selector */
+.chip-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip {
+    padding: 7px 14px;
+    border-radius: 20px;
+    border: 2px solid #e2e8f0;
+    background: white;
+    color: #64748b;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+}
+
+.chip.selected {
+    background: #16a34a;
+    border-color: #16a34a;
+    color: white;
+}
+
+/* Toggle Row */
+.toggle-row {
+    margin-bottom: 14px;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
+    color: #475569;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.toggle-label input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    accent-color: #16a34a;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* Language Options (inherit) */
 .lang-options {
     display: flex;
     gap: 10px;
@@ -30,10 +310,18 @@
     transition: all 0.2s;
     background: white;
     font-family: 'Inter', sans-serif;
+    color: #475569;
 }
 
 .lang-option.active {
-    background: #2d7a3a;
+    background: #16a34a;
     color: white;
-    border-color: #2d7a3a;
+    border-color: #16a34a;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .form-grid-2 {
+        grid-template-columns: 1fr;
+    }
 }
