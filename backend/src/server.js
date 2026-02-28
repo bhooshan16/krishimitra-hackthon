@@ -53,18 +53,19 @@ app.use((err, req, res, next) => {
     res.status(500).json({ success: false, message: err.message || 'Internal server error' });
 });
 
-const server = app.listen(PORT, () => {
-    console.log(`🚀 KrishiMitra AI server running on port ${PORT}`);
-});
+if (process.env.NODE_ENV !== 'production') {
+    const server = app.listen(PORT, () => {
+        console.log(`🚀 KrishiMitra AI server running on port ${PORT}`);
+    });
+    server.on('error', (err) => {
+        if (err.code === 'EADDRINUSE') {
+            console.log(`⚠️ Port ${PORT} is already in use. Exiting gracefully.`);
+            process.exit(0);
+        } else {
+            console.error(err);
+        }
+    });
+}
 
-server.on('error', (err) => {
-    if (err.code === 'EADDRINUSE') {
-        console.error(`❌ Port ${PORT} is already in use. The server is likely already running.`);
-        console.error(`   Stop the other process or change PORT in your .env file.`);
-        process.exit(0); // Exit cleanly without throwing
-    } else {
-        throw err;
-    }
-});
-
+// Export for Vercel serverless
 module.exports = app;
