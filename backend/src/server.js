@@ -18,18 +18,32 @@ app.use(cors({
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
-// MongoDB Connection
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/krishimitra';
+// MongoDB Serverless Connection Handler
+// In Vercel, traditional long-lived connections fail. We must connect per-request.
+let isConnected = false;
 
-mongoose.connect(MONGODB_URI)
-    .then(() => {
-        console.log('✅ Connected to MongoDB');
-        // Start cron job after DB connection
-        require('./services/alertCronJob');
-    })
-    .catch((err) => {
+const connectDB = async () => {
+    if (isConnected) return;
+    try {
+        // Strip quotes if Vercel environment variable pasted them accidentally
+        const uri = (process.env.MONGODB_URI || 'mongodb://localhost:27017/krishimitra').replace(/^["']|["']$/g, '');
+        const db = await mongoose.connect(uri, {
+            serverSelectionTimeoutMS: 5000,
+        });
+        isConnected = db.connections[0].readyState === 1;
+        console.log('✅ Connected to MongoDB (Serverless Mode)');
+        // Try starting the cron job, ignoring if it fails in serverless
+        try { require('./services/alertCronJob'); } catch (e) { }
+    } catch (err) {
         console.error('❌ MongoDB connection error:', err.message);
-    });
+    }
+};
+
+// Ensure DB is connected before any route is processed
+app.use(async (req, res, next) => {
+    await connectDB();
+    next();
+});
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
