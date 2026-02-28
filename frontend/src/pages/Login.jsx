@@ -46,13 +46,6 @@ export default function Login() {
 
     return (
         <div className="auth-page">
-            {/* Background decoration */}
-            <div className="auth-bg">
-                <div className="auth-blob auth-blob-1" />
-                <div className="auth-blob auth-blob-2" />
-                <div className="auth-blob auth-blob-3" />
-            </div>
-
             <div className="auth-container">
                 {/* Left panel – branding */}
                 <div className="auth-brand-panel">
